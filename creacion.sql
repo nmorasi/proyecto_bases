@@ -1,3 +1,11 @@
+DROP TABLE IF EXISTS asociado CASCADE;
+DROP TABLE IF EXISTS dueno CASCADE;
+DROP TABLE IF EXISTS chofer CASCADE;
+DROP TABLE IF EXISTS cliente CASCADE;
+DROP TABLE IF EXISTS correos CASCADE;
+DROP TABLE IF EXISTS viaje CASCADE;
+DROP TABLE IF EXISTS vehiculo CASCADE;
+DROP TABLE IF EXISTS ocupantes CASCADE;
 CREATE TABLE asociado(
      id_asociado int,
      nombre varchar(50),
@@ -9,14 +17,13 @@ CREATE TABLE asociado(
      fecha_ingreso date, 
      PRIMARY KEY (id_asociado)
 ); 
-CREATE TABLE chofer(
-       id_asociado int, 
-       rfc varchar()
-); 
 CREATE TABLE dueno(
+       id_asociado int, 
+       rfc varchar(18)
+); 
+CREATE TABLE chofer(
        id_asociado int,
-       num_licencia varchar()
-      
+       num_licencia varchar(20)
 );      
 
 CREATE TABLE cliente(
@@ -29,16 +36,18 @@ CREATE TABLE cliente(
        calle varchar(80),
        numero int,
        delegacion varchar(25),
-       fotografia,
-       telefono , 
-       telefono casa, 
-       lugar_labores ,
+       --       fotografia,
+       telefono_cel char(10) , 
+       telefono_casa char(10), 
+       lugar_labores varchar(100),
        --informacion opcional 
        entrada time,
        salida time , 
        -- va a decir si es academico estudiante o trabajador para
        --hacer los descuentos adecuados 
-       tipo char(1), 
+       tipo char(1),
+       PRIMARY KEY(id_cliente)
+       
 );
 CREATE TABLE correos(
        id_cliente int,
@@ -48,16 +57,19 @@ CREATE TABLE correos(
 CREATE TABLE viaje(
        id_viaje int,
        id_asociado int,
-       id_vehiculo int ,
+       numero_economico int ,
        distancia real,
        tiempo time,
        numero_ocupantes int,
-       varios_destinos char(1)
+       varios_destinos char(1),
+       PRIMARY KEY(id_viaje)
+       
 );
 
 CREATE TABLE vehiculo(
        --para saber a quien le pertenece
-       id_asociado int,       
+       id_asociado int,
+       --llave de la entidad
        numero_economico int,
        modelo varchar(30),
        marca varchar(30),
@@ -71,7 +83,8 @@ CREATE TABLE vehiculo(
        cap_tanque real,
        PRIMARY KEY(numero_economico) 
        
-); 
+);
+--tabla para tener tener a los ocupantes de un viaje
 CREATE TABLE ocupantes(
        id_viaje int ,
        id_cliente int
@@ -98,12 +111,12 @@ ALTER TABLE viaje
 --que estos pertencezcan a un unico viaje 
 ALTER TABLE ocupantes
       ADD CONSTRAINT ocupantes_cliente_fk
-      FOREIGN KEY (id_cliente) refeences cliente (id_cliente), 
+      FOREIGN KEY (id_cliente) references cliente (id_cliente), 
       ADD CONSTRAINT ocupantes_viaje_fk
       FOREIGN KEY (id_viaje) references viaje (id_viaje);
 --las restricciones a la tabla del cliente 
 
-ALTER TABLE correo
+ALTER TABLE correos
       ADD CONSTRAINT correo_cliente_fk
       FOREIGN KEY (id_cliente) references cliente (id_cliente);
       
