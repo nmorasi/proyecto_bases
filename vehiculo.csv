@@ -1,0 +1,500 @@
+1,LX,Lexus,2016,12,2,estandar,4,hibrido,39
+2,SX4,Suzuki,2012,12,2,estandar,4,hibrido,37
+3,Intrepid,Dodge,2010,4,2,automatico,3,gasolina,37
+4,G-Series G30,Chevrolet,2017,12,4,automatico,2,gasolina,36
+5,Altima,Nissan,2016,6,2,automatico,3,hibrido,31
+6,Accord,Honda,2013,4,4,automatico,3,gasolina,37
+7,6 Series,BMW,2013,12,2,estandar,3,hibrido,40
+8,Highlander,Toyota,2014,8,2,automatico,3,gasolina,32
+9,Altima,Nissan,2010,4,4,automatico,2,gasolina,34
+10,V8,Audi,2018,8,4,estandar,2,hibrido,39
+11,Tercel,Toyota,2016,12,2,estandar,4,gasolina,35
+12,W123,Mercedes-Benz,2017,12,4,automatico,4,gasolina,40
+13,Cavalier,Chevrolet,2015,12,4,automatico,4,gasolina,31
+14,E-Series,Ford,2017,4,2,estandar,2,gasolina,36
+15,SC,Lexus,2011,12,2,estandar,2,hibrido,33
+16,Aerostar,Ford,2017,6,2,estandar,3,hibrido,40
+17,C70,Volvo,2017,12,2,automatico,4,hibrido,30
+18,IS-F,Lexus,2011,8,2,estandar,3,gasolina,36
+19,Prius,Toyota,2012,6,2,estandar,3,gasolina,37
+20,Magnum,Dodge,2015,12,4,automatico,4,hibrido,30
+21,6 Series,BMW,2018,12,2,automatico,4,hibrido,38
+22,Savana 3500,GMC,2014,8,4,automatico,4,gasolina,40
+23,Camry,Toyota,2013,12,2,automatico,3,gasolina,33
+24,S-Class,Mercedes-Benz,2017,12,2,automatico,2,gasolina,39
+25,LR2,Land Rover,2015,12,4,automatico,4,gasolina,35
+26,Savana 2500,GMC,2017,6,2,estandar,3,hibrido,37
+27,Avalon,Toyota,2016,12,4,estandar,3,gasolina,32
+28,Envoy XL,GMC,2016,4,4,automatico,2,hibrido,33
+29,Silhouette,Oldsmobile,2014,12,2,automatico,2,hibrido,32
+30,Skylark,Buick,2015,8,4,automatico,2,hibrido,37
+31,Firefly,Pontiac,2012,12,2,automatico,2,hibrido,32
+32,7 Series,BMW,2017,8,2,automatico,4,hibrido,38
+33,Viper,Dodge,2014,6,2,automatico,4,gasolina,37
+34,Tracer,Mercury,2010,4,4,automatico,4,gasolina,35
+35,C70,Volvo,2010,8,4,automatico,4,hibrido,39
+36,Galant,Mitsubishi,2018,8,2,automatico,4,gasolina,39
+37,Caravan,Dodge,2011,12,2,automatico,3,hibrido,30
+38,Catera,Cadillac,2014,8,4,automatico,4,gasolina,31
+39,Galant,Mitsubishi,2011,4,2,estandar,4,hibrido,30
+40,Continental Flying Spur,Bentley,2014,12,4,estandar,4,gasolina,37
+41,Monterey,Mercury,2015,12,2,automatico,4,hibrido,33
+42,Pathfinder,Nissan,2010,12,4,estandar,3,hibrido,30
+43,X-Type,Jaguar,2018,4,2,estandar,3,gasolina,35
+44,E-Class,Mercedes-Benz,2011,12,4,estandar,2,gasolina,36
+45,Mustang,Ford,2016,12,4,estandar,3,hibrido,37
+46,Altima,Nissan,2010,12,4,automatico,2,hibrido,30
+47,I,Infiniti,2017,12,2,estandar,4,gasolina,34
+48,Montero,Mitsubishi,2018,12,2,estandar,4,hibrido,38
+49,Golf,Volkswagen,2011,12,4,estandar,2,gasolina,31
+50,V50,Volvo,2015,8,2,automatico,2,hibrido,36
+51,2500,GMC,2017,8,4,automatico,4,hibrido,40
+52,Vision,Eagle,2010,12,4,automatico,4,gasolina,33
+53,Econoline E350,Ford,2012,12,4,estandar,3,hibrido,33
+54,911,Porsche,2016,4,2,estandar,3,hibrido,36
+55,300M,Chrysler,2016,8,2,estandar,4,hibrido,40
+56,Ranger,Ford,2018,12,4,estandar,2,hibrido,31
+57,Dakota,Dodge,2018,8,4,automatico,3,gasolina,38
+58,Safari,GMC,2010,6,4,automatico,2,hibrido,37
+59,E-Class,Mercedes-Benz,2016,12,4,automatico,3,gasolina,35
+60,3500,Chevrolet,2012,12,4,estandar,3,hibrido,40
+61,Dakota,Dodge,2011,8,4,estandar,2,hibrido,30
+62,9000,Saab,2012,12,2,automatico,4,gasolina,36
+63,Vitara,Suzuki,2012,12,4,automatico,3,gasolina,34
+64,Transit Connect,Ford,2014,4,4,estandar,3,hibrido,34
+65,W201,Mercedes-Benz,2015,12,2,automatico,2,gasolina,37
+66,Focus,Ford,2010,4,2,automatico,3,hibrido,40
+67,Continental GTC,Bentley,2012,8,4,automatico,2,hibrido,35
+68,Malibu,Chevrolet,2011,12,4,automatico,4,gasolina,39
+69,RL,Acura,2013,12,2,automatico,2,hibrido,33
+70,I,Infiniti,2012,12,2,automatico,3,hibrido,30
+71,Caravan,Dodge,2018,12,2,estandar,4,gasolina,31
+72,Voyager,Chrysler,2012,12,4,estandar,2,hibrido,36
+73,Liberty,Jeep,2014,12,4,automatico,4,gasolina,30
+74,Xtra,Toyota,2016,6,2,automatico,3,hibrido,40
+75,Pathfinder,Nissan,2010,6,2,estandar,4,gasolina,38
+76,Liberty,Jeep,2012,8,2,estandar,4,gasolina,38
+77,911,Porsche,2014,12,4,automatico,2,gasolina,30
+78,Neon,Plymouth,2010,4,4,automatico,2,hibrido,33
+79,914,Porsche,2015,12,4,estandar,4,hibrido,34
+80,Cooper,MINI,2017,8,4,estandar,2,hibrido,32
+81,Club Wagon,Ford,2010,12,4,automatico,4,gasolina,35
+82,Altima,Nissan,2017,12,4,estandar,3,gasolina,30
+83,1500,Chevrolet,2016,8,2,estandar,4,hibrido,36
+84,LSS,Oldsmobile,2018,4,4,automatico,2,gasolina,34
+85,Skylark,Buick,2015,4,4,estandar,4,gasolina,39
+86,Montero,Mitsubishi,2018,8,4,estandar,4,hibrido,38
+87,Aerostar,Ford,2012,12,2,estandar,3,hibrido,30
+88,TundraMax,Toyota,2011,12,4,estandar,4,hibrido,33
+89,Tercel,Toyota,2011,8,2,automatico,3,gasolina,30
+90,Leone,Subaru,2017,12,4,estandar,2,hibrido,37
+91,Corvette,Chevrolet,2010,12,2,automatico,2,gasolina,33
+92,Suburban 1500,GMC,2017,12,4,estandar,2,gasolina,32
+93,Eurovan,Volkswagen,2018,6,2,automatico,2,gasolina,31
+94,Accent,Hyundai,2018,8,4,automatico,4,hibrido,36
+95,Accent,Hyundai,2010,12,2,estandar,3,hibrido,34
+96,Envoy XUV,GMC,2016,12,4,automatico,4,hibrido,35
+97,Grand Prix,Pontiac,2011,12,2,estandar,2,gasolina,31
+98,9-3,Saab,2012,6,4,estandar,3,hibrido,33
+99,Escalade,Cadillac,2014,12,2,automatico,2,gasolina,31
+100,Yukon,GMC,2010,12,4,estandar,3,hibrido,32
+101,SC,Lexus,2010,12,2,estandar,4,hibrido,30
+102,Ram,Dodge,2015,4,2,estandar,4,gasolina,32
+103,Mini Cooper,Austin,2013,8,2,automatico,4,gasolina,38
+104,L-Series,Saturn,2010,6,4,automatico,2,hibrido,35
+105,Mirage,Mitsubishi,2018,12,2,automatico,3,hibrido,33
+106,Matrix,Toyota,2016,12,2,estandar,2,gasolina,37
+107,Forester,Subaru,2015,12,4,estandar,4,hibrido,38
+108,Altima,Nissan,2015,4,2,automatico,2,gasolina,33
+109,Justy,Subaru,2010,8,4,estandar,3,gasolina,36
+110,Neon,Dodge,2018,12,4,automatico,2,hibrido,40
+111,Continental,Lincoln,2015,12,2,estandar,4,hibrido,30
+112,Ascender,Isuzu,2015,12,4,estandar,3,gasolina,38
+113,Express 2500,Chevrolet,2012,6,4,estandar,3,hibrido,38
+114,Discovery,Land Rover,2012,12,2,estandar,2,gasolina,37
+115,Liberty,Jeep,2011,12,2,estandar,3,gasolina,34
+116,Pathfinder,Nissan,2018,12,2,estandar,3,gasolina,31
+117,Sportage,Kia,2010,4,2,estandar,3,gasolina,40
+118,Legacy,Subaru,2010,12,4,estandar,4,gasolina,32
+119,Corvette,Chevrolet,2011,8,2,estandar,3,gasolina,35
+120,Voyager,Chrysler,2011,4,4,automatico,4,hibrido,35
+121,Accent,Hyundai,2015,12,2,estandar,3,gasolina,32
+122,Savana,GMC,2011,12,4,estandar,2,hibrido,39
+123,F-Series,Ford,2015,4,2,automatico,3,hibrido,37
+124,X-Type,Jaguar,2012,8,4,estandar,3,hibrido,38
+125,Elantra,Hyundai,2015,12,4,estandar,3,gasolina,38
+126,Supra,Toyota,2016,4,4,estandar,4,hibrido,31
+127,RAV4,Toyota,2015,12,2,automatico,3,gasolina,40
+128,760,BMW,2011,12,4,automatico,2,gasolina,30
+129,Roadmaster,Buick,2016,4,2,estandar,2,hibrido,40
+130,RS6,Audi,2015,12,2,estandar,2,gasolina,30
+131,Protege,Mazda,2017,8,2,estandar,4,hibrido,40
+132,C8,Spyker,2018,12,2,automatico,3,gasolina,31
+133,Quattro,Audi,2016,8,2,estandar,2,hibrido,33
+134,GTI,Volkswagen,2014,4,2,automatico,4,hibrido,30
+135,Camaro,Chevrolet,2018,12,2,automatico,2,gasolina,38
+136,98,Oldsmobile,2017,12,2,automatico,2,hibrido,32
+137,Celica,Toyota,2016,12,4,estandar,4,hibrido,38
+138,Magnum,Dodge,2015,8,2,automatico,4,gasolina,30
+139,Crown Victoria,Ford,2012,12,2,estandar,3,hibrido,32
+140,Legacy,Subaru,2012,12,4,automatico,2,hibrido,30
+141,Silverado,Chevrolet,2016,8,4,automatico,4,gasolina,36
+142,Spectra,Kia,2015,8,4,automatico,4,gasolina,38
+143,V40,Volvo,2016,12,4,automatico,3,gasolina,37
+144,Daewoo Kalos,Pontiac,2013,6,4,estandar,4,gasolina,38
+145,9-7X,Saab,2016,8,4,automatico,2,hibrido,30
+146,Cayman,Porsche,2017,8,2,estandar,3,gasolina,37
+147,Mustang,Ford,2015,6,2,estandar,2,gasolina,34
+148,Cirrus,Chrysler,2016,12,2,automatico,3,hibrido,30
+149,Grand Prix,Pontiac,2014,12,2,estandar,3,gasolina,36
+150,Bonneville,Pontiac,2014,12,2,automatico,4,hibrido,30
+151,Quattro,Audi,2016,8,2,automatico,3,hibrido,36
+152,Sierra,GMC,2018,6,4,automatico,3,gasolina,39
+153,Solara,Toyota,2011,12,2,automatico,4,gasolina,37
+154,Fleetwood,Cadillac,2014,8,4,automatico,2,gasolina,38
+155,S4,Audi,2015,4,4,automatico,3,gasolina,32
+156,SJ,Suzuki,2010,8,4,estandar,2,gasolina,32
+157,Insight,Honda,2013,12,4,automatico,4,gasolina,38
+158,Caravan,Dodge,2015,4,4,automatico,4,gasolina,40
+159,Brat,Subaru,2013,12,4,automatico,4,gasolina,40
+160,Town Car,Lincoln,2013,6,2,automatico,2,gasolina,37
+161,G35,Infiniti,2017,8,4,automatico,2,hibrido,36
+162,Crown Victoria,Ford,2018,12,2,automatico,2,gasolina,32
+163,Galant,Mitsubishi,2018,12,2,estandar,2,gasolina,39
+164,Pilot,Honda,2018,6,2,automatico,4,hibrido,38
+165,STS,Cadillac,2018,12,2,estandar,3,hibrido,30
+166,S4,Audi,2017,8,4,estandar,3,hibrido,40
+167,Elantra,Hyundai,2011,12,4,estandar,4,hibrido,36
+168,V70,Volvo,2012,12,4,estandar,3,hibrido,32
+169,Grand Cherokee,Jeep,2010,12,2,automatico,3,gasolina,32
+170,Park Avenue,Buick,2011,8,4,estandar,3,gasolina,32
+171,S-Class,Mercedes-Benz,2014,8,4,estandar,4,hibrido,31
+172,Expedition,Ford,2015,8,2,estandar,3,hibrido,31
+173,Durango,Dodge,2016,12,2,estandar,2,gasolina,32
+174,Ascender,Isuzu,2015,4,2,automatico,2,gasolina,35
+175,F-Series,Ford,2011,12,2,automatico,2,gasolina,33
+176,Ranger,Ford,2013,12,4,estandar,3,gasolina,31
+177,Tacoma,Toyota,2010,4,2,automatico,4,hibrido,35
+178,Traverse,Chevrolet,2014,4,4,automatico,4,gasolina,40
+179,228,Maserati,2012,12,2,estandar,2,hibrido,33
+180,XC90,Volvo,2016,12,4,estandar,4,hibrido,32
+181,Passat,Volkswagen,2013,8,2,automatico,3,hibrido,37
+182,Cobalt,Chevrolet,2014,12,2,automatico,3,hibrido,32
+183,850,Volvo,2015,6,4,estandar,3,gasolina,31
+184,Prius Plug-in,Toyota,2012,12,4,estandar,4,hibrido,39
+185,Sierra 3500,GMC,2013,4,2,automatico,4,hibrido,37
+186,Cherokee,Jeep,2018,12,4,estandar,3,hibrido,30
+187,Z4 M Roadster,BMW,2017,12,4,estandar,2,hibrido,31
+188,F430 Spider,Ferrari,2016,12,2,automatico,2,hibrido,34
+189,Oasis,Isuzu,2010,12,2,automatico,4,gasolina,34
+190,4Runner,Toyota,2010,12,2,estandar,4,gasolina,31
+191,Sable,Mercury,2014,12,2,automatico,4,gasolina,37
+192,Tredia,Mitsubishi,2010,12,4,automatico,2,hibrido,33
+193,Ipsum,Toyota,2012,12,2,estandar,2,hibrido,38
+194,TundraMax,Toyota,2011,8,2,estandar,3,hibrido,37
+195,Liberty,Jeep,2017,12,4,estandar,2,gasolina,40
+196,RL,Acura,2018,12,2,automatico,4,hibrido,40
+197,Firebird,Pontiac,2014,4,2,automatico,4,hibrido,34
+198,Wrangler,Jeep,2012,8,4,automatico,2,hibrido,36
+199,S-Class,Mercedes-Benz,2013,12,4,estandar,2,gasolina,40
+200,Savana 1500,GMC,2017,6,2,estandar,3,hibrido,39
+201,Versa,Nissan,2018,8,4,automatico,2,hibrido,36
+202,Caravan,Dodge,2012,12,2,estandar,2,gasolina,37
+203,XJ Series,Jaguar,2011,12,4,automatico,2,gasolina,32
+204,Escort,Ford,2015,4,2,estandar,4,gasolina,39
+205,Relay,Saturn,2012,8,4,estandar,4,gasolina,40
+206,6 Series,BMW,2018,8,2,estandar,3,hibrido,39
+207,Ascender,Isuzu,2011,12,2,estandar,4,hibrido,32
+208,LeSabre,Buick,2016,8,2,automatico,3,hibrido,39
+209,Cougar,Mercury,2012,8,4,estandar,2,hibrido,38
+210,Monte Carlo,Chevrolet,2011,6,2,automatico,3,gasolina,39
+211,Patriot,Jeep,2018,4,2,automatico,4,gasolina,31
+212,Intrepid,Dodge,2010,8,4,automatico,3,gasolina,35
+213,Park Avenue,Buick,2014,12,4,estandar,4,hibrido,31
+214,Armada,Nissan,2017,8,2,automatico,3,gasolina,32
+215,TT,Audi,2011,8,2,automatico,4,gasolina,34
+216,Veloster,Hyundai,2013,6,2,estandar,2,hibrido,40
+217,Town Car,Lincoln,2010,4,4,automatico,4,gasolina,40
+218,Talon,Eagle,2018,12,2,estandar,3,gasolina,39
+219,RX Hybrid,Lexus,2010,8,2,estandar,4,gasolina,39
+220,Jetta,Volkswagen,2013,12,4,automatico,2,hibrido,39
+221,SX4,Suzuki,2016,8,2,automatico,2,hibrido,39
+222,Daewoo Lacetti,Suzuki,2011,12,4,estandar,3,gasolina,30
+223,Sedona,Kia,2017,6,4,estandar,2,gasolina,35
+224,S6,Audi,2016,6,4,estandar,3,gasolina,40
+225,Elantra,Hyundai,2018,6,4,estandar,4,gasolina,37
+226,Escalade ESV,Cadillac,2014,12,2,estandar,4,hibrido,37
+227,Equinox,Chevrolet,2013,8,4,estandar,4,gasolina,39
+228,LS,Lexus,2017,8,2,estandar,2,gasolina,38
+229,Cube,Nissan,2012,12,4,estandar,4,hibrido,38
+230,Caravan,Dodge,2016,12,4,automatico,4,hibrido,39
+231,Celica,Toyota,2013,4,2,automatico,3,gasolina,37
+232,M6,BMW,2013,12,2,estandar,2,hibrido,35
+233,Continental,Lincoln,2012,6,2,automatico,3,gasolina,40
+234,TT,Audi,2013,8,4,estandar,3,gasolina,37
+235,S4,Audi,2012,12,4,estandar,2,gasolina,33
+236,Town Car,Lincoln,2016,12,4,automatico,3,gasolina,30
+237,Justy,Subaru,2014,12,4,automatico,2,gasolina,40
+238,STS,Cadillac,2018,8,4,automatico,2,hibrido,38
+239,Dakota Club,Dodge,2016,12,2,estandar,2,gasolina,37
+240,Avanti,Studebaker,2011,12,2,automatico,2,gasolina,35
+241,SM,Citroën,2018,12,2,automatico,2,hibrido,32
+242,Ranger,Ford,2017,4,4,estandar,4,hibrido,31
+243,K5 Blazer,Chevrolet,2012,8,2,automatico,4,hibrido,34
+244,LeMans,Pontiac,2017,12,4,automatico,4,gasolina,36
+245,Legend,Acura,2012,8,4,automatico,4,hibrido,33
+246,HED-5,Hyundai,2015,12,4,estandar,4,gasolina,36
+247,Civic,Honda,2016,8,2,automatico,2,hibrido,32
+248,Integra,Acura,2014,8,4,automatico,4,hibrido,31
+249,IS F,Lexus,2010,12,4,automatico,2,hibrido,34
+250,LeMans,Pontiac,2012,8,4,estandar,4,gasolina,38
+251,New Yorker,Chrysler,2013,4,2,automatico,3,gasolina,34
+252,Camry,Toyota,2010,12,2,automatico,2,hibrido,32
+253,LeSabre,Buick,2017,12,2,automatico,2,hibrido,32
+254,Cordia,Mitsubishi,2014,4,4,estandar,2,gasolina,30
+255,E150,Ford,2013,8,2,estandar,2,gasolina,35
+256,Suburban 2500,GMC,2011,6,2,automatico,2,hibrido,32
+257,Esprit,Lotus,2018,12,4,estandar,4,gasolina,33
+258,Sparrow,Corbin,2011,4,4,estandar,2,hibrido,36
+259,944,Porsche,2010,8,2,estandar,4,gasolina,36
+260,riolet,Volkswagen,2018,12,2,estandar,4,gasolina,35
+261,Mustang,Ford,2017,12,4,automatico,3,gasolina,37
+262,Patriot,Jeep,2011,12,4,estandar,4,gasolina,32
+263,Courier,Ford,2014,12,4,estandar,3,hibrido,37
+264,GTO,Pontiac,2016,4,2,automatico,2,hibrido,31
+265,Legacy,Subaru,2015,8,4,automatico,2,hibrido,33
+266,XC60,Volvo,2014,12,4,automatico,3,gasolina,34
+267,xD,Scion,2011,6,2,estandar,4,hibrido,36
+268,MPV,Mazda,2017,12,2,estandar,3,hibrido,34
+269,LeMans,Pontiac,2013,12,2,estandar,3,hibrido,30
+270,MX-6,Mazda,2011,12,2,automatico,2,hibrido,38
+271,Passat,Volkswagen,2012,4,4,automatico,2,hibrido,39
+272,300M,Chrysler,2013,8,2,estandar,3,gasolina,38
+273,Caprice Classic,Chevrolet,2018,4,2,estandar,4,gasolina,33
+274,Eos,Volkswagen,2010,8,2,automatico,2,hibrido,34
+275,Ram 2500 Club,Dodge,2016,4,2,automatico,3,hibrido,34
+276,Civic,Honda,2013,12,2,estandar,2,gasolina,38
+277,626,Mazda,2013,8,2,estandar,4,gasolina,38
+278,E-Series,Ford,2011,12,2,estandar,2,hibrido,36
+279,B-Series,Mazda,2013,6,4,automatico,3,gasolina,34
+280,Sierra 3500HD,GMC,2018,4,2,automatico,3,gasolina,31
+281,Focus,Ford,2013,8,2,estandar,3,hibrido,37
+282,Excel,Mitsubishi,2010,12,2,automatico,3,gasolina,33
+283,Maxima,Nissan,2010,12,4,estandar,3,gasolina,31
+284,Civic,Honda,2010,4,4,estandar,4,hibrido,39
+285,760,BMW,2012,4,2,automatico,3,hibrido,33
+286,Cayman,Porsche,2012,6,4,estandar,2,gasolina,31
+287,Pathfinder,Nissan,2017,12,4,automatico,2,hibrido,35
+288,Firebird,Pontiac,2011,4,2,automatico,4,gasolina,32
+289,Savana 3500,GMC,2012,12,2,estandar,4,gasolina,39
+290,RX-8,Mazda,2013,6,4,automatico,3,gasolina,37
+291,Fit,Honda,2010,8,4,automatico,2,gasolina,31
+292,ES,Lexus,2015,12,4,automatico,4,hibrido,37
+293,Jimmy,GMC,2013,8,2,automatico,2,gasolina,34
+294,A6,Audi,2015,8,4,estandar,2,hibrido,39
+295,E-Class,Mercedes-Benz,2018,12,2,automatico,3,hibrido,40
+296,xA,Scion,2011,12,2,automatico,3,hibrido,40
+297,Space,Isuzu,2018,4,2,automatico,3,gasolina,35
+298,Cirrus,Chrysler,2011,8,2,automatico,2,hibrido,33
+299,Topaz,Mercury,2013,12,2,automatico,4,hibrido,35
+300,Versa,Nissan,2012,8,2,automatico,2,gasolina,39
+301,Expedition,Ford,2012,8,2,estandar,3,gasolina,31
+302,RX-7,Mazda,2017,12,2,estandar,3,gasolina,32
+303,Sigma,Mitsubishi,2010,4,2,estandar,4,hibrido,33
+304,5 Series,BMW,2014,8,4,automatico,4,hibrido,31
+305,LeSabre,Buick,2014,4,4,automatico,4,hibrido,35
+306,Galant,Mitsubishi,2017,12,4,automatico,2,gasolina,35
+307,Sprinter 3500,Mercedes-Benz,2017,6,2,automatico,2,hibrido,37
+308,Caravan,Dodge,2017,6,2,estandar,3,hibrido,37
+309,Sorento,Kia,2011,12,2,estandar,3,hibrido,37
+310,Tacoma,Toyota,2015,8,2,estandar,3,hibrido,30
+311,Monterey,Mercury,2015,12,4,estandar,2,gasolina,39
+312,A8,Audi,2013,8,4,estandar,3,hibrido,38
+313,H1,Hummer,2010,12,4,automatico,2,hibrido,37
+314,Corvette,Chevrolet,2018,6,2,automatico,4,gasolina,36
+315,Insight,Honda,2016,8,4,automatico,2,hibrido,30
+316,Armada,Nissan,2014,12,2,automatico,3,hibrido,39
+317,F150,Ford,2016,8,2,estandar,4,gasolina,33
+318,Express 3500,Chevrolet,2018,12,4,estandar,2,hibrido,31
+319,Pajero,Mitsubishi,2011,6,2,estandar,4,hibrido,31
+320,Concorde,Chrysler,2017,12,2,estandar,4,gasolina,39
+321,XK,Jaguar,2018,8,4,automatico,2,gasolina,31
+322,S2000,Honda,2015,12,2,estandar,4,gasolina,39
+323,3500,GMC,2014,12,4,automatico,2,hibrido,30
+324,A8,Audi,2017,8,4,automatico,3,hibrido,37
+325,E-Class,Mercedes-Benz,2013,6,4,automatico,3,hibrido,33
+326,LeMans,Pontiac,2015,8,4,estandar,2,hibrido,35
+327,LX,Lexus,2015,8,2,estandar,3,hibrido,35
+328,S5,Audi,2014,8,4,automatico,2,hibrido,34
+329,Pajero,Mitsubishi,2014,12,4,estandar,4,hibrido,36
+330,Diablo,Lamborghini,2012,4,2,estandar,3,hibrido,37
+331,Ram 1500 Club,Dodge,2014,8,2,automatico,4,hibrido,30
+332,TT,Audi,2017,8,4,estandar,2,hibrido,30
+333,SC,Lexus,2015,4,2,automatico,2,gasolina,33
+334,Grand Prix,Pontiac,2010,6,2,automatico,2,gasolina,35
+335,XLR,Cadillac,2010,6,4,automatico,4,hibrido,36
+336,Concorde,Chrysler,2016,12,2,automatico,2,gasolina,38
+337,Rendezvous,Buick,2017,4,4,automatico,4,gasolina,35
+338,Armada,Nissan,2014,12,4,estandar,3,gasolina,31
+339,530,BMW,2015,8,2,automatico,3,hibrido,36
+340,Silverado 1500,Chevrolet,2010,12,4,automatico,4,gasolina,34
+341,Neon,Dodge,2013,12,2,automatico,2,hibrido,37
+342,Solstice,Pontiac,2012,12,4,estandar,3,hibrido,36
+343,Dakota,Dodge,2016,8,4,estandar,2,hibrido,33
+344,TL,Acura,2011,12,4,automatico,3,hibrido,36
+345,929,Mazda,2010,8,4,automatico,2,hibrido,32
+346,Caravan,Dodge,2016,8,4,estandar,2,hibrido,36
+347,Colt Vista,Plymouth,2016,12,2,automatico,4,hibrido,40
+348,Firebird,Pontiac,2011,4,2,estandar,4,hibrido,32
+349,Silverado 3500,Chevrolet,2010,8,2,estandar,3,gasolina,33
+350,HHR,Chevrolet,2018,8,4,estandar,3,gasolina,34
+351,Camaro,Chevrolet,2012,8,2,automatico,2,gasolina,31
+352,XLR,Cadillac,2013,4,4,estandar,3,gasolina,37
+353,MX-3,Mazda,2011,12,4,estandar,2,gasolina,38
+354,SSR,Chevrolet,2010,4,2,estandar,3,hibrido,34
+355,Carrera GT,Porsche,2014,12,4,estandar,2,hibrido,40
+356,F350,Ford,2011,8,2,estandar,4,hibrido,31
+357,Concorde,Chrysler,2013,6,2,automatico,2,gasolina,38
+358,Esprit,Lotus,2016,12,4,automatico,2,hibrido,38
+359,9-2X,Saab,2011,6,2,estandar,4,hibrido,36
+360,Camaro,Chevrolet,2018,8,4,estandar,3,gasolina,36
+361,Savana 2500,GMC,2016,12,4,estandar,2,gasolina,39
+362,Fiero,Pontiac,2013,4,4,estandar,3,gasolina,35
+363,VUE,Saturn,2015,8,4,estandar,4,hibrido,31
+364,Classic,Chevrolet,2015,8,2,estandar,4,hibrido,38
+365,3 Series,BMW,2010,12,2,automatico,3,hibrido,30
+366,Savana 2500,GMC,2016,8,2,estandar,4,gasolina,30
+367,Navigator,Lincoln,2013,6,4,estandar,3,hibrido,31
+368,CLK-Class,Mercedes-Benz,2011,6,4,automatico,3,gasolina,34
+369,B-Series,Mazda,2012,12,4,estandar,3,hibrido,31
+370,RAV4,Toyota,2013,8,4,estandar,4,gasolina,30
+371,Camaro,Chevrolet,2017,6,2,automatico,3,hibrido,30
+372,Tahoe,Chevrolet,2016,8,2,estandar,2,hibrido,36
+373,C70,Volvo,2015,8,4,estandar,2,hibrido,33
+374,Dakota,Dodge,2011,6,4,automatico,4,gasolina,32
+375,Grand Prix Turbo,Pontiac,2010,12,2,automatico,2,hibrido,38
+376,M3,BMW,2011,8,4,automatico,4,hibrido,31
+377,R8,Audi,2012,8,2,estandar,4,gasolina,39
+378,Avanti,Studebaker,2014,12,4,automatico,2,hibrido,40
+379,Caprice Classic,Chevrolet,2011,12,2,automatico,2,gasolina,33
+380,H1,Hummer,2015,6,4,estandar,2,hibrido,30
+381,Montego,Mercury,2011,4,4,estandar,3,hibrido,40
+382,Avalanche,Chevrolet,2017,8,2,automatico,3,gasolina,35
+383,W201,Mercedes-Benz,2012,6,2,automatico,4,gasolina,33
+384,Phantom,Rolls-Royce,2017,6,2,estandar,4,hibrido,34
+385,X3,BMW,2016,12,2,estandar,3,hibrido,30
+386,XK,Jaguar,2012,12,4,automatico,2,hibrido,33
+387,Defender,Land Rover,2011,12,2,automatico,2,gasolina,36
+388,I,Infiniti,2017,12,2,estandar,3,hibrido,36
+389,Probe,Ford,2017,8,2,estandar,3,gasolina,30
+390,Dakota,Dodge,2018,12,4,estandar,4,gasolina,40
+391,5000CS,Audi,2017,12,4,estandar,4,gasolina,34
+392,Contour,Ford,2010,12,4,automatico,2,gasolina,37
+393,Neon,Plymouth,2010,6,4,estandar,3,gasolina,37
+394,Eclipse,Mitsubishi,2017,4,4,estandar,4,hibrido,33
+395,Accord,Honda,2015,12,2,estandar,3,gasolina,31
+396,ZX2,Ford,2015,8,2,estandar,4,gasolina,38
+397,Rio,Kia,2010,8,4,automatico,4,gasolina,30
+398,Sable,Mercury,2013,12,2,automatico,4,gasolina,40
+399,FX,Infiniti,2017,12,2,estandar,4,gasolina,33
+400,Genesis Coupe,Hyundai,2015,12,4,estandar,3,gasolina,40
+401,Hombre,Isuzu,2015,12,4,estandar,4,gasolina,40
+402,GX,Lexus,2016,12,2,automatico,4,hibrido,32
+403,LS,Lexus,2012,8,4,automatico,2,gasolina,33
+404,968,Porsche,2011,8,4,automatico,2,gasolina,32
+405,Ram Van 2500,Dodge,2017,6,4,automatico,2,hibrido,32
+406,E-Series,Ford,2011,8,4,estandar,4,gasolina,30
+407,Avalon,Toyota,2014,12,2,automatico,2,hibrido,40
+408,Rally Wagon 1500,GMC,2012,12,4,estandar,2,hibrido,38
+409,Nubira,Daewoo,2014,8,2,automatico,4,gasolina,38
+410,A4,Audi,2014,8,2,automatico,4,hibrido,36
+411,Venza,Toyota,2013,4,4,estandar,3,hibrido,30
+412,Ridgeline,Honda,2014,12,2,estandar,4,gasolina,40
+413,Probe,Ford,2011,12,4,estandar,4,hibrido,30
+414,Sebring,Chrysler,2011,12,4,automatico,2,gasolina,38
+415,RX-7,Mazda,2017,4,2,estandar,3,hibrido,32
+416,M5,BMW,2010,12,4,estandar,4,gasolina,40
+417,Chariot,Mitsubishi,2016,6,2,estandar,3,gasolina,34
+418,CL-Class,Mercedes-Benz,2015,12,2,automatico,3,gasolina,30
+419,Eclipse,Mitsubishi,2010,12,2,estandar,4,hibrido,36
+420,Blazer,Chevrolet,2017,6,2,estandar,2,gasolina,40
+421,LTD,Ford,2012,12,4,estandar,3,gasolina,31
+422,Dakota,Dodge,2017,12,4,automatico,3,gasolina,37
+423,Grand Caravan,Dodge,2014,12,4,automatico,3,hibrido,40
+424,H2,Hummer,2014,12,2,automatico,4,hibrido,36
+425,F-Series,Ford,2012,12,4,estandar,4,gasolina,36
+426,Celica,Toyota,2018,12,2,automatico,4,gasolina,31
+427,Xterra,Nissan,2016,6,4,estandar,3,hibrido,35
+428,Yukon XL 2500,GMC,2015,12,2,estandar,2,gasolina,31
+429,Crossfire,Chrysler,2015,8,4,automatico,4,gasolina,40
+430,Montego,Mercury,2018,12,2,automatico,4,hibrido,35
+431,F150,Ford,2018,4,4,automatico,3,hibrido,35
+432,SC,Lexus,2014,12,2,estandar,4,hibrido,36
+433,Ram Van 1500,Dodge,2016,12,2,automatico,2,gasolina,34
+434,Bonneville,Pontiac,2013,12,4,estandar,2,gasolina,31
+435,RVR,Mitsubishi,2013,4,2,estandar,3,gasolina,33
+436,Skylark,Buick,2018,6,2,automatico,4,hibrido,32
+437,Ranger,Ford,2011,4,4,estandar,4,hibrido,32
+438,Eos,Volkswagen,2010,12,2,automatico,2,hibrido,31
+439,Tacoma Xtra,Toyota,2017,12,2,estandar,4,gasolina,37
+440,S-Type,Jaguar,2013,6,4,estandar,2,hibrido,30
+441,Passport,Honda,2016,6,4,automatico,2,gasolina,31
+442,100,Audi,2015,6,2,automatico,4,gasolina,39
+443,626,Mazda,2017,8,4,estandar,2,gasolina,33
+444,Cabriolet,Volkswagen,2016,12,2,automatico,4,gasolina,38
+445,SRX,Cadillac,2014,8,4,automatico,3,hibrido,30
+446,V70,Volvo,2012,4,4,automatico,3,hibrido,31
+447,A4,Audi,2014,12,2,automatico,3,hibrido,30
+448,Grand Caravan,Dodge,2014,12,2,automatico,4,hibrido,39
+449,Explorer,Ford,2010,12,2,automatico,4,hibrido,31
+450,MX-6,Mazda,2015,12,2,automatico,3,gasolina,34
+451,NSX,Acura,2011,12,2,estandar,4,hibrido,38
+452,xB,Scion,2011,6,2,estandar,4,hibrido,38
+453,Routan,Volkswagen,2011,8,4,automatico,2,gasolina,33
+454,S-Class,Mercedes-Benz,2016,6,2,estandar,4,hibrido,34
+455,xB,Scion,2013,12,2,estandar,3,gasolina,35
+456,Corvette,Chevrolet,2013,12,2,estandar,3,gasolina,32
+457,Rodeo,Isuzu,2013,12,2,automatico,2,hibrido,34
+458,Intrepid,Dodge,2018,4,2,estandar,3,hibrido,36
+459,Reno,Suzuki,2015,4,2,estandar,4,hibrido,34
+460,G25,Infiniti,2017,12,4,automatico,2,gasolina,35
+461,Camry,Toyota,2018,12,2,automatico,2,hibrido,38
+462,Matrix,Toyota,2018,12,2,automatico,2,gasolina,32
+463,Colorado,Chevrolet,2017,6,4,estandar,3,gasolina,34
+464,H1,Hummer,2017,6,2,automatico,4,hibrido,30
+465,LeSabre,Buick,2010,12,4,automatico,3,gasolina,30
+466,Mazda3,Mazda,2014,12,4,automatico,3,gasolina,40
+467,Forester,Subaru,2017,8,4,estandar,3,gasolina,34
+468,Horizon,Plymouth,2012,12,2,automatico,2,gasolina,36
+469,Skyhawk,Buick,2014,12,2,estandar,4,hibrido,38
+470,Impala SS,Chevrolet,2012,12,2,estandar,4,gasolina,40
+471,Savana 2500,GMC,2018,12,2,estandar,2,gasolina,39
+472,Aerio,Suzuki,2011,8,4,automatico,2,hibrido,37
+473,Sunfire,Pontiac,2015,8,2,automatico,4,hibrido,38
+474,Expedition,Ford,2013,12,4,automatico,2,hibrido,33
+475,Clubman,MINI,2011,12,4,automatico,2,hibrido,30
+476,Aerio,Suzuki,2013,6,4,automatico,3,hibrido,39
+477,Impala,Chevrolet,2015,8,2,estandar,2,gasolina,30
+478,Impreza,Subaru,2012,4,4,estandar,3,gasolina,34
+479,Range Rover,Land Rover,2012,12,4,estandar,2,gasolina,40
+480,Dakota Club,Dodge,2011,12,2,automatico,4,hibrido,35
+481,XJ,Jaguar,2014,8,2,estandar,3,gasolina,30
+482,Seville,Cadillac,2016,8,2,automatico,4,gasolina,40
+483,XJ Series,Jaguar,2010,12,2,estandar,2,hibrido,40
+484,Charade,Daihatsu,2016,4,4,estandar,3,gasolina,37
+485,G-Series G30,Chevrolet,2018,4,2,automatico,3,gasolina,35
+486,SX4,Suzuki,2018,12,4,estandar,3,gasolina,31
+487,62,Maybach,2013,6,4,estandar,3,hibrido,38
+488,Grand Prix,Pontiac,2015,6,4,estandar,4,hibrido,36
+489,Suburban 2500,Chevrolet,2017,12,4,estandar,4,gasolina,37
+490,Edge,Ford,2018,8,4,estandar,3,hibrido,39
+491,GTI,Volkswagen,2012,8,2,estandar,4,hibrido,32
+492,Grand Voyager,Plymouth,2010,6,2,automatico,3,hibrido,30
+493,EXP,Ford,2016,12,2,estandar,3,gasolina,38
+494,Silverado 2500,Chevrolet,2013,12,4,automatico,2,hibrido,36
+495,Outback Sport,Subaru,2016,12,2,estandar,4,hibrido,30
+496,MX-5,Mazda,2013,12,2,automatico,4,gasolina,36
+497,Catera,Cadillac,2013,12,4,automatico,4,gasolina,32
+498,525,BMW,2017,12,2,automatico,3,gasolina,33
+499,Bronco II,Ford,2013,12,2,automatico,3,gasolina,30
+500,V8 Vantage,Aston Martin,2012,12,4,automatico,3,hibrido,33
