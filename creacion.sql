@@ -5,6 +5,8 @@ DROP TABLE IF EXISTS socio CASCADE;
 DROP TABLE IF EXISTS agente CASCADE;
 DROP TABLE IF EXISTS chofer CASCADE;
 DROP TABLE IF EXISTS dueno CASCADE;
+DROP TABLE IF EXISTS multa CASCADE;
+DROP TABLE IF EXISTS taxi CASCADE;
 CREATE TABLE vehiculo (
        id_vehiculo int,
        modelo varchar(30),
@@ -73,6 +75,42 @@ CREATE TABLE agente(
        ap_mat varchar(30),
        PRIMARY KEY (id_agente)
 );
+CREATE TABLE taxi(
+       num_economico int,
+       rfc char(14),
+       refaccion char(1),
+       id_vehiculo int, 
+       PRIMARY KEY (num_economico) 
+); 
+CREATE TABLE multa(
+       id_multa int,
+       calle varchar(80),
+       delegacion varchar(50),
+       cp char(5),
+       entre_calle1 varchar(80), 
+       entre_calle2 varchar(80),
+       hora time,
+       fecha date,
+       descp varchar(120),
+       monto real,
+       id_agente int,
+       num_economico int, 
+       PRIMARY KEY (id_multa)
+);
+
+ALTER TABLE taxi
+      ADD CONSTRAINT taxi_vehiculo_fk
+      FOREIGN KEY (id_vehiculo) references vehiculo(id_vehiculo),
+      ADD CONSTRAINT taxi_dueno_fk
+      FOREIGN KEY (rfc) references dueno(rfc); 
+
+ALTER TABLE multa
+      ADD CONSTRAINT multa_agente_fk
+      FOREIGN KEY (id_agente) references agente(id_agente),
+      ADD CONSTRAINT multa_taxi_fk
+      FOREIGN KEY (num_economico) references taxi(num_economico);
+     
+      
 ALTER TABLE dueno
       ADD CONSTRAINT dueno_socio_fk
       FOREIGN KEY (id_socio) references socio(id_socio);
