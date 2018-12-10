@@ -134,7 +134,7 @@ CREATE TABLE viaje(
        num_economico int,
        multi_destino char(1),
        num_personas int,
-       tiempo interval,
+       tiempo time,
        tipo char(7),
        distancia real, 
        multi_origen char(1),

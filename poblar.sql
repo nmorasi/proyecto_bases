@@ -8,3 +8,7 @@
 \copy multa FROM '/home/nieves/proyecto_bases/proyecto_bases/multa.csv' WITH (DELIMITER ',');
 \copy aseguradora FROM '/home/nieves/proyecto_bases/proyecto_bases/aseguradora.csv' WITH (DELIMITER ',');
 \copy seguro FROM '/home/nieves/proyecto_bases/proyecto_bases/seguro.csv' WITH (DELIMITER ',');
+\copy taxi_baja FROM '/home/nieves/proyecto_bases/proyecto_bases/taxi_baja.csv' WITH (DELIMITER ',');
+\copy viaje FROM '/home/nieves/proyecto_bases/proyecto_bases/viaje.csv' WITH (DELIMITER ',');
+\copy transaccion FROM '/home/nieves/proyecto_bases/proyecto_bases/transaccion.csv' WITH (DELIMITER ',');
+\copy ganancia FROM '/home/nieves/proyecto_bases/proyecto_bases/ganancia.csv' WITH (DELIMITER ',');
