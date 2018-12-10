@@ -9,6 +9,10 @@ DROP TABLE IF EXISTS multa CASCADE;
 DROP TABLE IF EXISTS taxi CASCADE;
 DROP TABLE IF EXISTS aseguradora CASCADE;
 DROP TABLE IF EXISTS seguro CASCADE;
+DROP TABLE IF EXISTS taxi_baja CASCADE;
+DROP TABLE IF EXISTS transaccion CASCADE;
+DROP TABLE IF EXISTS ganancia CASCADE;
+DROP TABLE IF EXISTS viaje CASCADE;
 CREATE TABLE vehiculo (
        id_vehiculo int,
        modelo varchar(30),
@@ -112,6 +116,70 @@ CREATE TABLE seguro(
        cobertura int,
        PRIMARY KEY (id_seguro)
 );
+CREATE TABLE ganancia(
+       id_ganancia int,
+       numero_licencia char(8),
+       mes int,
+       ano int,
+       bono real ,
+       monto_total real,
+       monto_sin_bono real,
+       PRIMARY KEY (id_ganancia)
+);
+
+	
+CREATE TABLE viaje(
+       id_viaje int,
+       numero_licencia char(8),
+       num_economico int,
+       multi_destino char(1),
+       num_personas int,
+       tiempo interval,
+       tipo char(7),
+       distancia real, 
+       multi_origen char(1),
+       PRIMARY KEY (id_viaje)
+);
+
+
+CREATE TABLE transaccion(
+       id_transaccion int, 
+       id_viaje int,
+       id_cliente int,
+       monto_total real,
+       descuentos_aplicados real ,
+       monto_parcial real ,
+       ganancia_chofer real, 
+       PRIMARY KEY(id_transaccion)
+);
+
+
+CREATE TABLE taxi_baja(
+       id_baja int, 
+       num_economico int, 
+       razon varchar(100), 
+       PRIMARY KEY (id_baja)
+);
+ALTER TABLE viaje
+      ADD CONSTRAINT viaje_taxi_fk
+      FOREIGN KEY (num_economico) references taxi(num_economico) , 
+      ADD CONSTRAINT viaje_chofer_fk
+      FOREIGN KEY (numero_licencia) references chofer(numero_licencia);
+      
+ALTER TABLE transaccion
+      ADD CONSTRAINT transaccion_viaje_fk
+      FOREIGN KEY (id_viaje) references viaje (id_viaje),
+      ADD CONSTRAINT transaccion_cliente_fk
+      FOREIGN KEY (id_cliente) references cliente(id_cliente);
+
+ALTER TABLE ganancia
+      ADD CONSTRAINT ganancia_chofer_fk
+      FOREIGN KEY (numero_licencia) references chofer(numero_licencia);
+      
+ALTER TABLE taxi_baja
+      ADD CONSTRAINT taxi_baja_taxi_fk
+      FOREIGN KEY (num_economico) references taxi(num_economico); 
+      
 ALTER TABLE seguro
       ADD CONSTRAINT seguro_taxi_fk
       FOREIGN KEY (num_economico) references taxi(num_economico),
