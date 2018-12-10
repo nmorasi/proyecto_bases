@@ -7,6 +7,8 @@ DROP TABLE IF EXISTS chofer CASCADE;
 DROP TABLE IF EXISTS dueno CASCADE;
 DROP TABLE IF EXISTS multa CASCADE;
 DROP TABLE IF EXISTS taxi CASCADE;
+DROP TABLE IF EXISTS aseguradora CASCADE;
+DROP TABLE IF EXISTS seguro CASCADE;
 CREATE TABLE vehiculo (
        id_vehiculo int,
        modelo varchar(30),
@@ -97,7 +99,25 @@ CREATE TABLE multa(
        num_economico int, 
        PRIMARY KEY (id_multa)
 );
-
+CREATE TABLE aseguradora(
+       rfc char(14),
+       nombre varchar(150), 
+       PRIMARY KEY(rfc) 
+); 
+CREATE TABLE seguro(
+       id_seguro int,
+       rfc char(14),
+       num_economico int,
+       tipo_seguro varchar(50),
+       cobertura int,
+       PRIMARY KEY (id_seguro)
+);
+ALTER TABLE seguro
+      ADD CONSTRAINT seguro_taxi_fk
+      FOREIGN KEY (num_economico) references taxi(num_economico),
+      ADD CONSTRAINT seguro_aseguradora_fk
+      FOREIGN KEY (rfc) references aseguradora(rfc); 
+      
 ALTER TABLE taxi
       ADD CONSTRAINT taxi_vehiculo_fk
       FOREIGN KEY (id_vehiculo) references vehiculo(id_vehiculo),
