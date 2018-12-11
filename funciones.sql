@@ -10,7 +10,7 @@ END;
 $total$ LANGUAGE plpgsql;
 --el primero es el id del cliente y el segundo
 --es lo que se le va a cobrar 
-CREATE OR REPLACE FUNCTION descuentoEstudiante(int,real)
+CREATE OR REPLACE FUNCTION desc_tipo_cliente(int,real)
 RETURNS real as $total$
 declare
 	total real;
@@ -21,6 +21,8 @@ BEGIN
 	WHERE id_cliente = $1;
 	IF tipo = 'e' THEN
 	   total = $2 * (0.85);
+	ELSIF tipo = 'a' THEN
+	   total = $2 * (0.90);
 	END IF;
 	RETURN total;
 END;
