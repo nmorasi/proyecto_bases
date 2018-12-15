@@ -11,7 +11,7 @@ import java.sql.Statement;
 import java.sql.ResultSet;
 /**
  *
- * @author nieves
+ * @author el jotinieves
  */
 public class JavaApplication1 {
     private final String url = "jdbc:postgresql://localhost/taxis";
