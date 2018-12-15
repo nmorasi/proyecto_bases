@@ -117,7 +117,7 @@ CREATE TABLE seguro(
        PRIMARY KEY (id_seguro)
 );
 CREATE TABLE ganancia(
-       id_ganancia int,
+       id_ganancia serial,
        numero_licencia char(8),
        mes int,
        ano int,
@@ -138,6 +138,7 @@ CREATE TABLE viaje(
        tipo char(7),
        distancia real, 
        multi_origen char(1),
+       fecha  date, 
        PRIMARY KEY (id_viaje)
 );
 
@@ -206,3 +207,9 @@ ALTER TABLE dueno
 ALTER TABLE chofer
       ADD CONSTRAINT chofer_socio_fk
       FOREIGN KEY (id_socio) references socio(id_socio);
+--aqui van a ir los triggers
+
+CREATE TRIGGER aplica_descuento_t BEFORE INSERT
+       ON transaccion
+       FOR EACH ROW 
+       EXECUTE PROCEDURE aplica_descuento();       
