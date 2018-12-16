@@ -35,12 +35,12 @@ public class GUI extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         dentro_cu = new javax.swing.JCheckBox();
-        Tipo_Cliente = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         origen = new javax.swing.JTextField();
         destino = new javax.swing.JTextField();
         solicitar_viaje = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         nom_chofer = new javax.swing.JTextField();
@@ -48,19 +48,12 @@ public class GUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Tipo de cliente:");
+        jLabel1.setText("Id de cliente:");
 
         dentro_cu.setText("Dentro de CU");
         dentro_cu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dentro_cuActionPerformed(evt);
-            }
-        });
-
-        Tipo_Cliente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Alumno", "Profesor/Trabajador", "Regular"}));
-        Tipo_Cliente.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Tipo_ClienteActionPerformed(evt);
             }
         });
 
@@ -84,6 +77,13 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
+        jTextField1.setText("jTextField1");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -96,7 +96,7 @@ public class GUI extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addComponent(jLabel1)
                             .addGap(18, 18, 18)
-                            .addComponent(Tipo_Cliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addComponent(jLabel2)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -106,7 +106,7 @@ public class GUI extends javax.swing.JFrame {
                             .addGap(18, 18, 18)
                             .addComponent(destino, javax.swing.GroupLayout.PREFERRED_SIZE, 522, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(solicitar_viaje))
-                .addContainerGap(373, Short.MAX_VALUE))
+                .addContainerGap(382, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -114,7 +114,7 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(Tipo_Cliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(dentro_cu)
                 .addGap(18, 18, 18)
@@ -200,26 +200,48 @@ public class GUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_dentro_cuActionPerformed
 
-    private void Tipo_ClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tipo_ClienteActionPerformed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_Tipo_ClienteActionPerformed
-
     private void solicitar_viajeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_solicitar_viajeActionPerformed
         // TODO add your handling code here:
+        JavaApplication1 ja = new JavaApplication1();
+        try{
+            int id_v = ja.crearViaje();
+            java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                    new InfoViaje(id_v).setVisible(true);
+                }
+            });
+        }catch(SQLException e){
+            e.printStackTrace();
+            System.out.println("ocurrio un error");
+        }
     }//GEN-LAST:event_solicitar_viajeActionPerformed
 
     private void nom_choferActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nom_choferActionPerformed
         // TODO add your handling code here:
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Ganancias(Integer.parseInt(nom_chofer.getText())).setVisible(true);
+            }
+        });
     }//GEN-LAST:event_nom_choferActionPerformed
 
     private void ver_gananciasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ver_gananciasActionPerformed
         // TODO add your handling code here:
+         java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Ganancias(Integer.parseInt(nom_chofer.getText())).setVisible(true);
+            }
+        });
+         
     }//GEN-LAST:event_ver_gananciasActionPerformed
 
     private void origenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_origenActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_origenActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -257,7 +279,6 @@ public class GUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> Tipo_Cliente;
     private javax.swing.JCheckBox dentro_cu;
     private javax.swing.JTextField destino;
     private javax.swing.JLabel jLabel1;
@@ -267,6 +288,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField nom_chofer;
     private javax.swing.JTextField origen;
     private javax.swing.JButton solicitar_viaje;

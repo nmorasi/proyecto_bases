@@ -155,6 +155,7 @@ CREATE TABLE transaccion(
 );
 
 
+
 CREATE TABLE taxi_baja(
        id_baja int, 
        num_economico int, 
@@ -177,7 +178,7 @@ ALTER TABLE ganancia
       ADD CONSTRAINT ganancia_chofer_fk
       FOREIGN KEY (numero_licencia) references chofer(numero_licencia);
       
-ALTER TABLE taxi_baja
+ALTER TABLE vehiculo_baja
       ADD CONSTRAINT taxi_baja_taxi_fk
       FOREIGN KEY (num_economico) references taxi(num_economico); 
       
@@ -186,12 +187,7 @@ ALTER TABLE seguro
       FOREIGN KEY (num_economico) references taxi(num_economico),
       ADD CONSTRAINT seguro_aseguradora_fk
       FOREIGN KEY (rfc) references aseguradora(rfc); 
-      
-ALTER TABLE taxi
-      ADD CONSTRAINT taxi_vehiculo_fk
-      FOREIGN KEY (id_vehiculo) references vehiculo(id_vehiculo),
-      ADD CONSTRAINT taxi_dueno_fk
-      FOREIGN KEY (rfc) references dueno(rfc); 
+     
 
 ALTER TABLE multa
       ADD CONSTRAINT multa_agente_fk
