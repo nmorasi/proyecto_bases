@@ -206,7 +206,7 @@ ALTER TABLE chofer
       FOREIGN KEY (id_socio) references socio(id_socio);
 --aqui van a ir los triggers
 
--- CREATE TRIGGER aplica_descuento_t BEFORE INSERT
---        ON transaccion
---        FOR EACH ROW 
---        EXECUTE PROCEDURE aplica_descuento();       
+CREATE TRIGGER aplica_descuento_t BEFORE INSERT
+       ON transaccion
+       FOR EACH ROW 
+       EXECUTE PROCEDURE aplica_descuento();       
