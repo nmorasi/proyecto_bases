@@ -1,0 +1,11 @@
+\copy cliente TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/cliente.csv' WITH (DELIMITER ',');
+\copy vehiculo TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/vehiculo.csv' WITH (DELIMITER ',');
+\copy socio TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/socio.csv' WITH (DELIMITER ',');
+\copy dueno TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/dueno.csv' WITH (DELIMITER ',');
+\copy chofer TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/chofer.csv' WITH (DELIMITER ',');
+\copy aseguradora TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/aseguradora.csv' WITH (DELIMITER ',');
+\copy seguro TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/seguro.csv' WITH (DELIMITER ',');
+\copy multa TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/multa.csv' WITH (DELIMITER ',');
+\copy multa_vehiculo TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/multa_vehiculo.csv' WITH (DELIMITER ',');
+\copy transaccion TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/transaccion.csv' WITH (DELIMITER ',');
+\copy viaje TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/viaje.csv' WITH (DELIMITER ',');
