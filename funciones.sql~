@@ -1,9 +1,0 @@
-CREATE OR REPLACE FUNCTION totalRecords
-RETURN integer AS $total$
-declare
-	total integer;
-BEGIN
-	SELECT count(*) into total FROM cliente
-	RETURN total;
-END
-$total$ LANGUAGE plpgsql;
