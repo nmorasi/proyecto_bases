@@ -38,17 +38,13 @@ public class GUI extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         dentro_cu = new javax.swing.JCheckBox();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        origen = new javax.swing.JTextField();
-        destino = new javax.swing.JTextField();
         solicitar_viaje = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jCheckBox1 = new javax.swing.JCheckBox();
         jPanel2 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         nom_chofer = new javax.swing.JTextField();
-        ver_ganancias = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -60,19 +56,6 @@ public class GUI extends javax.swing.JFrame {
                 dentro_cuActionPerformed(evt);
             }
         });
-
-        jLabel2.setText("¿Dónde estás?:");
-
-        jLabel3.setText("¿A dónde vas?");
-
-        origen.setText("origen");
-        origen.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                origenActionPerformed(evt);
-            }
-        });
-
-        destino.setText("destino");
 
         solicitar_viaje.setText("Solicitar viaje");
         solicitar_viaje.addActionListener(new java.awt.event.ActionListener() {
@@ -102,25 +85,16 @@ public class GUI extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(dentro_cu)
-                            .addGap(51, 51, 51)
-                            .addComponent(jCheckBox1))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(jLabel1)
-                            .addGap(18, 18, 18)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(jLabel2)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(origen))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(jLabel3)
-                            .addGap(18, 18, 18)
-                            .addComponent(destino, javax.swing.GroupLayout.PREFERRED_SIZE, 522, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(dentro_cu)
+                        .addGap(51, 51, 51)
+                        .addComponent(jCheckBox1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(solicitar_viaje))
-                .addContainerGap(382, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -134,16 +108,8 @@ public class GUI extends javax.swing.JFrame {
                     .addComponent(dentro_cu)
                     .addComponent(jCheckBox1))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(origen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(46, 46, 46)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(destino, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(38, 38, 38)
                 .addComponent(solicitar_viaje)
-                .addContainerGap(256, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jCheckBox1.getAccessibleContext().setAccessibleName("compañia");
@@ -161,10 +127,10 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        ver_ganancias.setText("Ver ganancias");
-        ver_ganancias.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setText("ver ganancias");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ver_gananciasActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
 
@@ -173,16 +139,14 @@ public class GUI extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
                         .addComponent(jLabel4)
                         .addGap(18, 18, 18)
-                        .addComponent(nom_chofer, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(348, 348, 348)
-                        .addComponent(ver_ganancias)))
-                .addContainerGap(546, Short.MAX_VALUE))
+                        .addComponent(nom_chofer, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButton1))
+                .addContainerGap(80, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -191,9 +155,9 @@ public class GUI extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(nom_chofer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(95, 95, 95)
-                .addComponent(ver_ganancias)
-                .addContainerGap(336, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(25, 25, 25))
         );
 
         jTabbedPane1.addTab("Chofer", jPanel2);
@@ -202,15 +166,11 @@ public class GUI extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jTabbedPane1)
-                .addContainerGap())
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 389, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jTabbedPane1)
-                .addContainerGap())
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -255,34 +215,34 @@ public class GUI extends javax.swing.JFrame {
 
     private void nom_choferActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nom_choferActionPerformed
         // TODO add your handling code here:
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Ganancias(Integer.parseInt(nom_chofer.getText())).setVisible(true);
-            }
-        });
     }//GEN-LAST:event_nom_choferActionPerformed
-
-    private void ver_gananciasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ver_gananciasActionPerformed
-        // TODO add your handling code here:
-         java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Ganancias(Integer.parseInt(nom_chofer.getText())).setVisible(true);
-            }
-        });
-         
-    }//GEN-LAST:event_ver_gananciasActionPerformed
-
-    private void origenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_origenActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_origenActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox1ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+         JavaApplication1 ja = new JavaApplication1();
+        try{
+            //aqui deberia guardar en la base de datos
+            String numero_licencia = nom_chofer.getText();
+            LinkedList<String[]> ll = ja.tuplas_ganancias(numero_licencia);
+            java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Ganancias(ll).setVisible(true);
+                }
+            });
+        }catch(SQLException e){
+            e.printStackTrace();
+            System.out.println("ocurrio un error");
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -321,19 +281,15 @@ public class GUI extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox dentro_cu;
-    private javax.swing.JTextField destino;
+    private javax.swing.JButton jButton1;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField nom_chofer;
-    private javax.swing.JTextField origen;
     private javax.swing.JButton solicitar_viaje;
-    private javax.swing.JButton ver_ganancias;
     // End of variables declaration//GEN-END:variables
 }

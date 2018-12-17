@@ -7,6 +7,8 @@ package javaapplication1;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  *
@@ -17,12 +19,57 @@ public class Ganancias extends javax.swing.JFrame {
     /**
      * Creates new form Ganancias
      */
-    int id_chofer;
-    public Ganancias(int id_chofer) {
+    String mes(int i){
+        String ret = "";
+        switch(i){
+            case 1:
+                ret =  "enero";
+                break;
+            case 2:
+                ret = "febrero";
+                break;
+            case 3:
+                ret = "marzo";
+                break;
+            case 4:
+                ret = "abril";
+                break;
+            case 5:
+                ret = "mayo";
+                break;
+            case 6:
+                ret = "junio";
+                break;
+            case 7:
+                ret = "julio";
+                break;
+            case 8:
+                ret = "agosto";
+                break;
+            case 9:
+                ret = "septiembre";
+                break;
+            case 10:
+                ret = "octubre";
+                break;
+            case 11:
+                ret = "noviembre";
+                break;
+            case 12:
+                ret = "diciembre";
+                break;
+        }
+        return ret;
+    }
+    public Ganancias(LinkedList<String[]> ganancias) {
         initComponents();
-        this.id_chofer = id_chofer;
-        JavaApplication1 ap = new JavaApplication1();
-        
+        jTextArea1.append("Tus ganancias fueron las siguientes\n");
+        Iterator<String[]> it = ganancias.iterator();
+        String[] temp; 
+        while(it.hasNext()){
+            temp = it.next();
+            jTextArea1.append(String.format("Tus ganacias del mes de %s del año %s fueron %s pesos\n",mes(Integer.parseInt(temp[1])),temp[0],temp[2]));
+        }
     }
 
     /**

@@ -36,8 +36,8 @@ public class InfoViaje extends javax.swing.JFrame {
             temp = it.next();
             cad = ""+contador+".- ";
             cad += "nombre: "+temp[0] + " " + temp[1] + " "+ temp[2];
-            cad += "\n costo: " + temp[3] + " ";
-            cad += "\n descuento: " + temp[4] ;
+            cad += "\n costo: " + temp[3] + " pesos";
+            cad += "\n descuento: " + temp[4] + " pesos";
             jTextArea2.append(cad + "\n");
             contador++;
         }

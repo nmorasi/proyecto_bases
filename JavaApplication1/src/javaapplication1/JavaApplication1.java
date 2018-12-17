@@ -143,4 +143,25 @@ public class JavaApplication1 {
         }
         return ret;
     }
+    LinkedList<String[]> tuplas_ganancias(String numero_licencia) throws SQLException{
+         Connection conn = null;
+        conn = DriverManager.getConnection(url,user,password);
+        Statement st = conn.createStatement();
+        //agregargarme al viaje con una transaccion 
+        String query = "SELECT extract(year from fecha) yr,extract(month from fecha) mt,sum(ganancia_chofer) gan";
+        query += " from transaccion join viaje using (id_viaje) ";
+        query += "where numero_licencia = '%s'";
+        query += "group by fecha;";       
+        ResultSet rs = st.executeQuery(String.format(query, numero_licencia));
+        String[] temp;
+        LinkedList<String[]> ret = new LinkedList<String[]>();
+        while(rs.next()){
+            temp = new String[3];
+            temp[0] = rs.getString("yr");
+            temp[1] = rs.getString("mt");
+            temp[2] = rs.getString("gan");
+            ret.add(temp);
+        }
+        return ret;
+    }
 }
