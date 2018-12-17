@@ -98,14 +98,3 @@ END;
 $nuevo$ LANGUAGE plpgsql;
 
 
-
--- --funciones para calcular los bonos
--- CREATE OR REPLACE FUNCTION calcular_bono()
--- RETURNS void as $$
--- declare
--- BEGIN
--- 	SELECT numero_licencia,extract(year from fecha),extract(month from fecha),count(id_viaje)
--- 		FROM transaccion JOIN viaje using (id_viaje)
--- 		GROUP BY numero_licencia,fecha;
--- END;	
--- $$ LANGUAGE plpgsql; 
