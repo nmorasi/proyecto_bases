@@ -11,6 +11,4 @@
 \copy transaccion  FROM '/home/nieves/proyecto_bases/proyecto_bases/nuevo/transaccion.csv' WITH (DELIMITER ',');
 \copy baja  FROM '/home/nieves/proyecto_bases/proyecto_bases/nuevo/baja.csv' WITH (DELIMITER ',');
 \copy conduce  FROM '/home/nieves/proyecto_bases/proyecto_bases/nuevo/conduce.csv' WITH (DELIMITER ',');
---para llenarlo bien despues 
-\copy (select rfc from aseguradora) TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/rfc_aseguradora.csv' WITH (DELIMITER ',');
-\copy (select numero_licencia from chofer) TO '/home/nieves/proyecto_bases/proyecto_bases/nuevo/num_lic_chofer.csv' WITH (DELIMITER ',');
+\copy bono  FROM '/home/nieves/proyecto_bases/proyecto_bases/nuevo/bono.csv' WITH (DELIMITER ',');

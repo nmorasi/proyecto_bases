@@ -98,3 +98,26 @@ END;
 $nuevo$ LANGUAGE plpgsql;
 
 
+CREATE OR REPLACE FUNCTION poner_bono() 
+RETURNS VOID AS $$
+DECLARE
+    rec bono%ROWTYPE;
+    ganancias real; 
+BEGIN
+    FOR rec IN
+       SELECT *
+        FROM bono
+    LOOP 
+      IF rec.num_viajes > 20 THEN
+      	 SELECT sum(ganancia_chofer) into ganancias
+	 FROM transaccion join viaje using (id_viaje)
+	 WHERE rec.numero_licencia = numero_licencia;
+	 RAISE NOTICE '% %', rec.num_viajes,  ganancias;
+      	 UPDATE bono 
+	 SET monto = ganancias * (0.10)
+	 WHERE numero_licencia = rec.numero_licencia and
+	       rec.mes = mes and rec.ano = ano;
+      END IF;
+    END LOOP;
+END;
+$$ LANGUAGE plpgsql;

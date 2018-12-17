@@ -118,7 +118,7 @@ public class GUI extends javax.swing.JFrame {
         jTabbedPane1.addTab("Cliente", jPanel1);
         jPanel1.getAccessibleContext().setAccessibleName("compañia");
 
-        jLabel4.setText("Nombre de Chofer:");
+        jLabel4.setText("Numero de licencia");
 
         nom_chofer.setText("nom_chofer");
         nom_chofer.addActionListener(new java.awt.event.ActionListener() {

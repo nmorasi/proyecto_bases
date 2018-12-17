@@ -32,7 +32,6 @@ public class JavaApplication1 {
     public int crearViaje() throws SQLException{
         Connection conn = null;
         conn = DriverManager.getConnection(url,user,password);
-        System.out.println("Connected to postgresql");
         Statement st = conn.createStatement();
          ResultSet rs = st.executeQuery("SELECT count(1) from viaje;");
          rs.next();
@@ -103,7 +102,7 @@ public class JavaApplication1 {
     int ingresar_info(int id_cliente,String tipo,boolean compartir) throws SQLException{
         //crear un viaje
         int id_viaje = this.crearViaje();
-        System.out.println("el id del viaje creado es " + id_viaje);
+        
         Connection conn = null;
         conn = DriverManager.getConnection(url,user,password);
         Statement st = conn.createStatement();
@@ -128,7 +127,7 @@ public class JavaApplication1 {
         conn = DriverManager.getConnection(url,user,password);
         Statement st = conn.createStatement();
         //agregargarme al viaje con una transaccion 
-        System.out.println("el id es " + id_viaje);
+        
         ResultSet rs = st.executeQuery(String.format("SELECT * from cliente join transaccion using (id_cliente) WHERE id_viaje = %d ;",id_viaje));
         String[] temp;
         LinkedList<String[]> ret = new LinkedList<String[]>();
