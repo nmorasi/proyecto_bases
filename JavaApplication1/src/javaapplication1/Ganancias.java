@@ -22,17 +22,7 @@ public class Ganancias extends javax.swing.JFrame {
         initComponents();
         this.id_chofer = id_chofer;
         JavaApplication1 ap = new JavaApplication1();
-        try{
-            ResultSet rs = ap.connect("ganancia", "*");
-            while(rs.next()){
-                jTextArea1.append(rs.getString(1) + ",");
-                jTextArea1.append(rs.getString(2) + ",");
-                jTextArea1.append(rs.getString(3) + "\n");
-            }
-        }catch(SQLException e){
-            e.printStackTrace();
-            System.out.println("ocurrio un error");
-        }
+        
     }
 
     /**

@@ -114,13 +114,13 @@ CREATE TABLE viaje(
        id_viaje int,
        numero_licencia char(8),
        num_economico int,
-       multi_destino char(1),
-       num_personas int,
+       multi_destino char(1) DEFAULT 'N',
+       num_personas int DEFAULT 0,
        --tiempo en minutos 
-       tiempo int,
+       tiempo int DEFAULT 0,
        tipo char(7),
-       distancia real, 
-       multi_origen char(1),
+       distancia real DEFAULT 0, 
+       multi_origen char(1) DEFAULT 'N',
        fecha  date, 
        PRIMARY KEY (id_viaje)
 );

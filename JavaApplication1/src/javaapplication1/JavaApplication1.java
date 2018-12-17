@@ -20,18 +20,8 @@ public class JavaApplication1 {
     private final String url = "jdbc:postgresql://localhost/taxis";
     private final String user = "nieves";
     private final String password = "moran";
-    public ResultSet connect(String tabla,String campo) throws SQLException{
-        Connection conn = null;
-        conn = DriverManager.getConnection(url,user,password);
-        System.out.println("Connected to postgresql");
-        Statement st = conn.createStatement();
-        ResultSet rs = st.executeQuery("SELECT "+campo+" FROM "+ tabla +";"); 
-        return rs; 
-    }
-    public ResultSet obtenerGananciaChofer(){
-        
-        return null;
-    }
+    
+    
     //agregar nuevo viaje 
     int RangoRandom(int min, int max)
     {
@@ -46,7 +36,7 @@ public class JavaApplication1 {
          ResultSet rs = st.executeQuery("SELECT count(1) from viaje;");
          rs.next();
          //calcula una llave
-         int id_v = Integer.parseInt(rs.getString(1)) + 1;
+         int id_viaje = Integer.parseInt(rs.getString(1)) + 1;
          //asigna un chofer 
         rs = st.executeQuery("SELECT count(1) from chofer;");
         rs.next();
@@ -62,26 +52,25 @@ public class JavaApplication1 {
             cont++;
         }
         //asigna un numero economico al azar 
-        rs = st.executeQuery("SELECT count(1) from taxi;");
+        rs = st.executeQuery("SELECT count(1) from vehiculo;");
         rs.next();
-        int num_economico = RangoRandom(1,Integer.parseInt(rs.getString(1)) + 1);
-        //preguntar si quiere compartir 
+        int num_economico = RangoRandom(1,Integer.parseInt(rs.getString(1)));
         
         //asigna tambien una distancia al azar 
         double distancia = RangoRandom(5,70) + 1.0/RangoRandom(1,9);
-        //tambien multidestino 
         //con la fecha actual 
         String date = new SimpleDateFormat("MM-dd-yyyy").format(new Date());
         //crear tambien la transaccion para esa persona 
         //nadamas id_transaccion el id del viaje el id del cliente 
         //y el monto parcial 
         double parcial = 15  + 8 * distancia; 
-        System.out.println(id_v +","+num_lic+","+num_economico+","+distancia+","+date+","+parcial);
+        System.out.println(id_viaje +","+num_lic+","+num_economico+","+distancia+","+date+","+parcial);
         st = conn.createStatement();
         //st.executeUpdate("INSERT INTO viaje(id_viaje) VALUES (1001);");
         st.executeUpdate("INSERT INTO viaje (id_viaje,numero_licencia,num_economico,distancia,fecha)" + 
-                           " VALUES (" + id_v + ",'"+ num_lic +"',"+ num_economico+","+distancia+",'"+date+"');");
-        return id_v;
+                           " VALUES (" + id_viaje + ",'"+ num_lic +"',"+ num_economico+","+distancia+",'"+date+"');");
+       
+        return id_viaje;
     }
     public ResultSet obtenerInformacionViaje(){ 
         return null;
@@ -89,5 +78,55 @@ public class JavaApplication1 {
     /**
      * @param args the command line arguments
      */
-    
+    //para crear clientes aleatorios para acompañar a la persona 
+    //toma un id de viaje e inserta a los clientes
+    public void crearCliente(int id_viaje) throws SQLException{
+        //toma un id aleatorio de cliente;
+        Connection conn = null;
+        conn = DriverManager.getConnection(url,user,password);
+        Statement st = conn.createStatement();
+        ResultSet rs = st.executeQuery("SELECT count(1) from cliente;");
+        rs.next();
+        int id_cliente = RangoRandom(1,Integer.parseInt(rs.getString(1)));
+        //genera una nueva llave para la transaccion
+        rs = st.executeQuery("SELECT count(1) from transaccion;");
+        rs.next();
+        int nueva_trans = Integer.parseInt(rs.getString(1)) + 1;
+
+        //ingresa en transaccion la base de datos
+        st.executeUpdate(String.format("INSERT INTO transaccion (id_transaccion,id_viaje,id_cliente) VALUES (%d,%d,%d);",nueva_trans,id_viaje,id_cliente));
+                
+    }
+    //se supone que esto deberia tomar toda la informacion de la interfaz
+    // e ingresarla en la base de datos
+    void ingresar_info(int id_cliente,String tipo,boolean compartir) throws SQLException{
+        //crear un viaje
+        int id_viaje = this.crearViaje();
+        System.out.println("el id del viaje creado es " + id_viaje);
+        Connection conn = null;
+        conn = DriverManager.getConnection(url,user,password);
+        Statement st = conn.createStatement();
+        //agregargarme al viaje con una transaccion 
+        ResultSet rs = st.executeQuery("SELECT count(1) from transaccion;");
+        rs.next();
+        int nueva_trans = Integer.parseInt(rs.getString(1)) + 1;
+        st.executeUpdate(String.format("INSERT INTO transaccion (id_transaccion,id_viaje,id_cliente) VALUES (%d,%d,%d);",nueva_trans,id_viaje,id_cliente));
+        //cambia el viaje
+        st.executeUpdate(String.format("UPDATE viaje SET  tipo = '%s' WHERE id_viaje = %d;",tipo,id_viaje));
+        //si resulta que si quieres compartir 
+        if(compartir){
+            int num_acomp = RangoRandom(1,2);
+            for(int i = 0 ; i < num_acomp;i++){
+                crearCliente(id_viaje);
+            }
+        }
+    }
+    ResultSet tuplas_viaje(int id_viaje) throws SQLException{ 
+        Connection conn = null;
+        conn = DriverManager.getConnection(url,user,password);
+        Statement st = conn.createStatement();
+        //agregargarme al viaje con una transaccion 
+         return  st.executeQuery(String.format("SELECT * from transaccion WHERE id_viaje = %s ;",id_viaje));
+        
+    }
 }

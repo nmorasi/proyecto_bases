@@ -8,6 +8,8 @@ package javaapplication1;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -41,6 +43,7 @@ public class GUI extends javax.swing.JFrame {
         destino = new javax.swing.JTextField();
         solicitar_viaje = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
+        jCheckBox1 = new javax.swing.JCheckBox();
         jPanel2 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         nom_chofer = new javax.swing.JTextField();
@@ -84,6 +87,13 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
+        jCheckBox1.setText("Quieres compañia?");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -92,7 +102,10 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(dentro_cu)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(dentro_cu)
+                            .addGap(51, 51, 51)
+                            .addComponent(jCheckBox1))
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addComponent(jLabel1)
                             .addGap(18, 18, 18)
@@ -116,7 +129,9 @@ public class GUI extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(dentro_cu)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(dentro_cu)
+                    .addComponent(jCheckBox1))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -130,7 +145,11 @@ public class GUI extends javax.swing.JFrame {
                 .addContainerGap(256, Short.MAX_VALUE))
         );
 
+        jCheckBox1.getAccessibleContext().setAccessibleName("compañia");
+        jCheckBox1.getAccessibleContext().setAccessibleDescription("");
+
         jTabbedPane1.addTab("Cliente", jPanel1);
+        jPanel1.getAccessibleContext().setAccessibleName("compañia");
 
         jLabel4.setText("Nombre de Chofer:");
 
@@ -204,10 +223,27 @@ public class GUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         JavaApplication1 ja = new JavaApplication1();
         try{
-            int id_v = ja.crearViaje();
+            //aqui deberia guardar en la base de datos
+            boolean comp = false;
+            String tipo = "externo";
+            if(dentro_cu.isSelected()){
+                System.out.println("lo estas seleccionando el de cu");
+                tipo = "interno";
+            }
+            if (jCheckBox1.isSelected()){
+                System.out.println("estas seleccionando el de compania");
+                comp = true;
+            }
+            int id_viaje = Integer.parseInt(jTextField1.getText());
+            ja.ingresar_info(id_viaje,tipo,comp);
+            ResultSet rs = ja.tuplas_viaje(id_viaje);
             java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                    new InfoViaje(id_v).setVisible(true);
+                try {
+                    new InfoViaje(rs).setVisible(true);
+                } catch (SQLException ex) {
+                    Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
                 }
             });
         }catch(SQLException e){
@@ -242,6 +278,10 @@ public class GUI extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -281,6 +321,7 @@ public class GUI extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox dentro_cu;
     private javax.swing.JTextField destino;
+    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

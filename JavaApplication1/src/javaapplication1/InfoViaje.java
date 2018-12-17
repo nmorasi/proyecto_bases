@@ -5,6 +5,12 @@
  */
 package javaapplication1;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 /**
  *
  * @author nieves
@@ -14,12 +20,21 @@ public class InfoViaje extends javax.swing.JFrame {
     /**
      * Creates new form InfoViaje
      */
-    public InfoViaje(int id_v) {
+    public InfoViaje(ResultSet rs) throws SQLException{
         initComponents();
         //codigo que debe desplegar la ventana 
         //desplegar los descuentos
-        jTextArea2.append("hola:"+id_v);
-        
+        String cad = "";
+        while(rs.next()){
+            cad += rs.getString(1) + ",";
+            cad += rs.getString(2) + ",";
+             cad += rs.getString(3) + ",";
+              cad += rs.getString(4) + ",";
+               cad += rs.getString(5) + ",";
+                cad += rs.getString(6) + ",";
+                 cad += rs.getString(7) + "\n"; 
+            jTextArea2.append(cad);
+        }
     }
 
     /**

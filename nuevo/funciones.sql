@@ -8,15 +8,20 @@ declare
 	dist real;
 	numero_viajes int;
 	viaj_r viaje%rowtype;
-	pasajeros int; 
 BEGIN
+
 	--sacarle la informacion a viaje
 	select * into viaj_r
 	from viaje
 	where NEW.id_viaje = viaje.id_viaje;
-	
+	--toma la distancia del viaje
+	dist := viaj_r.distancia;
+	--como el sistema de alguna manera adivina la distancia entonces y
+	-- el tiempo esta determinado por esta entonces aproveche aqui para poner ese campo
+	--suponiendo que se tarda 5 minutos por hora	
 	UPDATE viaje
-	SET num_personas  = num_personas + 1
+	SET num_personas  = num_personas + 1, 
+	    tiempo = 5*dist
 	WHERE id_viaje = viaj_r.id_viaje;
 
 	--ya tuvo que haber creado el viaje
@@ -29,10 +34,9 @@ BEGIN
 	--para anadirle el descuento del cliente frecuente 
 	SELECT count(1) into numero_viajes
 	from transaccion where transaccion.id_cliente = NEW.id_cliente;
-	--toma la distancia del viaje
-	dist := viaj_r.distancia; 
-	--le tiene que asignar costo inicial supongamos
-	--que siempre comienza en 
+
+
+	--le tiene que asignar costo inicial 
 	NEW.monto_sin_descuento := 15.0 + (8*dist);
 	--si va dentro de cu entonces no debe haber descuento
 	IF viaj_r.tipo = 'interno' THEN
