@@ -37,32 +37,35 @@ BEGIN
 
 
 	--le tiene que asignar costo inicial 
-	NEW.monto_sin_descuento := 15.0 + (8*dist);
+	NEW.monto_total := 15.0 + (8*dist);
 	--si va dentro de cu entonces no debe haber descuento
 	IF viaj_r.tipo = 'interno' THEN
 	      IF numero_viajes > 4 THEN
- 	         NEW.monto_sin_descuento := 15.0;
-		 NEW.monto_con_descuento := 10.0;
+ 	         NEW.monto_total := 10;
 		 NEW.descuento := 5;
+		 NEW.tipo_tarifa = 'promocional'; 
 	      ELSE
-		 NEW.monto_sin_descuento := 15.0;
-	     	 NEW.monto_con_descuento := NEW.monto_sin_descuento;
+		 NEW.monto_total := 15.0;
+	     	 NEW.descuento := 0;
 	      END IF; 
-	--nosotros consideramos que solo los descuentos se hacen cuando se va fuera de cu	      
+	--nosotros consideramos que solo los descuentos se hacen cuando se va fuera de cu porque un descuento sobre 15 pesos ???       
 	ELSE
 		--por lo de cliente frecuente 
 		IF numero_viajes > 4 THEN
-		   NEW.monto_sin_descuento := 15.0 + (6*dist);
+		   NEW.monto_total := 15.0 + (6*dist);
+		   NEW.descuento := (2*dist); --osea 8 (sin descuento) - 6 (con descuento) va a ser lo ahorrado por el total de kilometros
 		END IF;
 	--con este va a aplicar el descuento por su condicion
 	--de estudiante academico o profesor
-		IF tc = 'a' THEN 
-			   NEW.monto_con_descuento := NEW.monto_sin_descuento * (0.85);
-			   NEW.descuento := NEW.monto_sin_descuento*(0.15);
+		IF tc = 'a' THEN
+		      	   NEW.descuento := NEW.monto_total * (0.15); 
+			   NEW.monto_total := NEW.monto_total * (0.85);
+			   NEW.tipo_tarifa := 'promocional';
 			   
-		ELSIF tc = 'e' or tc = 't' THEN 
-	  	           NEW.monto_con_descuento := NEW.monto_sin_descuento * (0.90);
-		       	   NEW.descuento := NEW.monto_sin_descuento*(0.10); 
+		ELSIF tc = 'e' or tc = 't' THEN
+		           NEW.descuento := NEW.monto_total * (0.10); 
+			   NEW.monto_total := NEW.monto_total * (0.90);
+			   NEW.tipo_tarifa := 'promocional';
 		END IF;
 
 	END IF;
@@ -75,20 +78,34 @@ BEGIN
 		    multi_origen = 'S'
 		WHERE id_viaje = viaj_r.id_viaje;
 	   --aplicar la el descuento por cada uno
-	        NEW.monto_con_descuento = NEW.monto_con_descuento * (1 - (viaj_r.num_personas * 0.10));
-		NEW.descuento = NEW.monto_sin_descuento - NEW.monto_con_descuento;
+	   	--a cada uno de los asistentes deberias agregarle promocional y a ti mismo promocional
+		UPDATE transaccion
+		SET descuento = monto_total*(0.10),
+		    monto_total = monto_total*(0.90),
+		    tipo_tarifa = 'promocional'
+		where id_viaje = viaj_r.id_viaje and id_cliente <> NEW.id_cliente;
+		NEW.tipo_tarifa := 'promocional';
 	END IF;
 
 	--finalmente ya con el descuento ya puedes decir cuales son las ganancias del chofer por transaccion
 	IF viaj_r.tipo = 'interno' THEN 
-	   NEW.ganancia_chofer = NEW.monto_con_descuento*(0.8); 
+	   NEW.ganancia_chofer = NEW.monto_total*(0.08); 
 	 ELSE
-	    NEW.ganancia_chofer = NEW.monto_con_descuento*(0.12);
-	 END IF;
+	    NEW.ganancia_chofer = NEW.monto_total*(0.12);
+	END IF;
 	RETURN NEW;
-	
 END;
 $nuevo$ LANGUAGE plpgsql;
 
 
---vamos a ver que es lo que pone en los rows
+
+-- --funciones para calcular los bonos
+-- CREATE OR REPLACE FUNCTION calcular_bono()
+-- RETURNS void as $$
+-- declare
+-- BEGIN
+-- 	SELECT numero_licencia,extract(year from fecha),extract(month from fecha),count(id_viaje)
+-- 		FROM transaccion JOIN viaje using (id_viaje)
+-- 		GROUP BY numero_licencia,fecha;
+-- END;	
+-- $$ LANGUAGE plpgsql; 

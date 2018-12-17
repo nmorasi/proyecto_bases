@@ -4,10 +4,9 @@ DROP TABLE IF EXISTS cliente CASCADE;
 DROP TABLE IF EXISTS chofer CASCADE;
 DROP TABLE IF EXISTS dueno CASCADE;
 DROP TABLE IF EXISTS multa CASCADE;
-DROP TABLE IF EXISTS multa_vehiculo CASCADE;
+DROP TABLE IF EXISTS conduce CASCADE;
 DROP TABLE IF EXISTS aseguradora CASCADE;
 DROP TABLE IF EXISTS seguro CASCADE;
-DROP TABLE IF EXISTS vehiculo_baja CASCADE;
 DROP TABLE IF EXISTS transaccion CASCADE;
 DROP TABLE IF EXISTS bono CASCADE;
 DROP TABLE IF EXISTS viaje CASCADE;
@@ -80,6 +79,8 @@ CREATE TABLE chofer(
 CREATE TABLE multa(
        id_multa int,
        id_agente int,
+       numero_licencia char(8),
+       num_economico int,
        calle varchar(80),
        delegacion varchar(50),
        cp char(5),
@@ -91,10 +92,10 @@ CREATE TABLE multa(
        monto real,
        PRIMARY KEY (id_multa)
 );
-CREATE TABLE multa_vehiculo(
-       id_multa int,
+CREATE TABLE conduce(
        num_economico int,
-       numero_licencia char(8)
+        numero_licencia char(8)
+
 ); 
 CREATE TABLE aseguradora(
        rfc char(14),
@@ -127,11 +128,20 @@ CREATE TABLE viaje(
 
 
 CREATE TABLE transaccion(
+       -- id_transaccion int, 
+       -- id_viaje int,
+       -- id_cliente int,
+       -- monto_sin_descuento real,
+       -- monto_con_descuento real,
+       -- descuento real,
+       -- ganancia_chofer real,
+       -- PRIMARY KEY(id_transaccion)
        id_transaccion int, 
        id_viaje int,
        id_cliente int,
-       monto_sin_descuento real,
-       monto_con_descuento real,
+       monto_total real,
+       --promocional, normal
+       tipo_tarifa varchar(80) ,
        descuento real,
        ganancia_chofer real,
        PRIMARY KEY(id_transaccion)
@@ -150,8 +160,8 @@ CREATE TABLE bono(
        numero_licencia char(8), 
        ano int,
        mes int,
-       num_viajes int,
-       monto real,
+       num_viajes int DEFAULT 0,
+       monto real DEFAULT 0,
        PRIMARY KEY (numero_licencia,ano,mes)
 );
 CREATE TABLE agente(
@@ -180,6 +190,7 @@ ALTER TABLE transaccion
 ALTER TABLE baja
       ADD CONSTRAINT baja_vehiculo_fk
       FOREIGN KEY (num_economico) references vehiculo(num_economico);
+      
 ALTER TABLE seguro
       ADD CONSTRAINT seguro_vehiculo_fk
       FOREIGN KEY (num_economico) references vehiculo(num_economico),
@@ -187,15 +198,19 @@ ALTER TABLE seguro
       FOREIGN KEY (rfc) references aseguradora(rfc); 
      
 
-ALTER TABLE multa_vehiculo
-      ADD CONSTRAINT multa_vehiculo_fk
+ALTER TABLE conduce
+      ADD CONSTRAINT conduce_vehiculo_fk
       FOREIGN KEY (num_economico) references vehiculo(num_economico),
-      ADD CONSTRAINT multa_vehiculo_multa_fk
-      FOREIGN KEY (id_multa) references multa(id_multa);
+      ADD CONSTRAINT conduce_chofer_fk
+      FOREIGN KEY (numero_licencia) references chofer(numero_licencia);
       
 ALTER TABLE multa
       ADD CONSTRAINT multa_agente_fk
-      FOREIGN KEY (id_agente) references agente(id_agente);     
+      FOREIGN KEY (id_agente) references agente(id_agente),
+      ADD CONSTRAINT multa_vehiculo_fk
+      FOREIGN KEY (num_economico) references vehiculo(num_economico),
+      ADD CONSTRAINT multa_chofer_fk
+      FOREIGN KEY (numero_licencia) references chofer(numero_licencia);
       
 ALTER TABLE dueno
       ADD CONSTRAINT dueno_socio_fk

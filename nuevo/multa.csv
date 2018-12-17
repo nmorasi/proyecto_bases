@@ -1,150 +1,325 @@
-1,7,RIO PAPAGALLO ,Benito Juárez,05772,CORUÑA ,VERIN ,5:13 PM,27-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2085.13
-2,6,NUEVA YORK ,Venustiano Carranza,64350,LOMA DE GUADALUPE ,DISTRITO EL PLAN ,5:09 PM,03-May-2018,Circular en sentido contrario,2205.54
-3,15,FERNANDO ROMAN LUGO ,Coyoacán,01150,PALMIRA ,AVENIDA SAN JERONIMO ,11:09 PM,18-Feb-2018,Circular en sentido contrario,2435.66
-4,14,DISTRITO EL PLAN ,Iztapalapa,11103,CRISTOBAL COLON ,AV. UNIVERSIDAD ,11:06 AM,20-May-2018,Estacionarse en lugares para discapacitados,4513.64
-5,4,1A. CALLE SUR ,Miguel Hidalgo,88981,RETORNO 9 DE TRONCOSO ,CAMINO REAL AL AJUSCO ,9:37 AM,28-Jun-2018,Manejar en estado de ebriedad,1640.61
-6,2,PROVIDENCIA ,Venustiano Carranza,36410,1A CERRADA DE CORREGIDORA ,JITOTOL ,9:01 PM,04-Oct-2018,Uso de distractores,3765.42
-7,12,VALLE DE LOS TOLTECAS ,Gustavo A. Madero,17863,COPAL ,DR. JOSE G. PARRES ,11:33 AM,27-Feb-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2355.45
-8,11,VILLA DE CUITLAHUAC ,Miguel Hidalgo,29926,VIVEROS DE ASIS ,LAS FLORES ,6:34 PM,25-Dec-2017,No usar cinturón de seguridad,4264.49
-9,15,CERRO DE LA ESTRELLA ,Iztacalco,71769,ALTOMONTE ,AV. UNIVERSIDAD ,4:29 PM,09-Jul-2018,Vuelta prohibida,3369.41
-10,8,CALLEJON ITURBE ,Milpa Alta,95476,CARTILLA ,FRESA ,10:51 AM,07-Sep-2018,Vuelta prohibida,4482.07
-11,9,EUFEMIO ARREDONDO ,Xochimilco,14768,VILLA FRATI ,NUEVA YORK ,11:52 PM,03-Sep-2018,Circular en sentido contrario,2126.22
-12,15,JUAN ZAIZAR ,Coyoacán,42815,TORRES QUINTERO ,IXTLE ,12:03 PM,12-Apr-2018,Uso de distractores,4599.63
-13,14,FERNANDO MONTES DE OCA ,Venustiano Carranza,81547,LINO MERINO ,ONOFRE CAPETO ,9:44 AM,21-Feb-2018,Uso de distractores,2913.01
-14,8,JAMES MONROE ,Benito Juárez,96935,TENORIOS ,MIGUEL ALEMAN ,2:53 PM,23-Oct-2018,Vuelta prohibida,767.61
-15,12,CDA. MANZANO ,Cuauhtémoc,94277,CIRCUITO PLAZA DE LA PAJA ,PLZAS. VILLA DE MADRID ,9:46 PM,21-Apr-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1361.54
-16,14,ARTEMISAS ,Tlalpan,76161,CALVARIO ,PUERTO ACAPULCO ,4:58 PM,12-Nov-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4622.91
-17,8,CHIAPANECAS ,Magdalena Contreras,82385,AV VICENTE RIVA PALACIO ,AV SANTA MARIA ,11:14 PM,24-Jun-2018,No usar cinturón de seguridad,2293.03
-18,7,PRIV. JESUS LECUONA ,Milpa Alta,72960,SUR 113 A ,SAGITARIO ,6:37 PM,13-May-2018,Uso de distractores,2027.06
-19,13,1A CDA DE OLIVOS ,Magdalena Contreras,51060,MIGUEL NEGRETE ,FRANCISCO DEL PASO Y TRONCOSO ,3:03 PM,23-May-2018,No respetar la luz roja del semáforo,3789.2
-20,11,VICTORIANO SALADO ALVAREZ ,Cuauhtémoc,69492,VICENTE GUERRERO ,SN.MARCOS Y LAS AMERICAS ,2:07 PM,31-Aug-2018,Estacionarse en lugares para discapacitados,3232.14
-21,15,JOAQUIN GARCIA LUNA ,Coyoacán,17536,OBRERO MUNDIAL ,EDIF AGUAMIEL ,11:00 AM,27-Jan-2018,Vuelta prohibida,3235.17
-22,3,LAGO MANAGUA ,Cuauhtémoc,43716,AV. NACIONES UNIDAS ,TONATIUH ,10:08 AM,09-Dec-2017,No usar cinturón de seguridad,2917.68
-23,7,ANGEL TRIAS ,Iztacalco,93653,SAGITARIO ,PRIMERA CERRADA DE LAS ROSAS ,11:49 AM,14-Jul-2018,No usar cinturón de seguridad,2256.36
-24,12,UN HAB FUENTES BROTANTES ,Milpa Alta,76857,MIGUEL ALEMAN ,FERRARA ,10:52 AM,29-May-2018,No usar cinturón de seguridad,3323.41
-25,3,BARRIO DE SAN JOSÉ ,Gustavo A. Madero,01628,1A. CALLE SUR ,CALLEJON ITURBE ,10:39 AM,23-Jun-2018,No respetar la luz roja del semáforo,4487.86
-26,5,MANUEL DOBLADO ,Milpa Alta,01403,CDA. APETLATIPAC ,BUENA VISTA ,5:42 PM,21-Jun-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1111.32
-27,14,JAMES MONROE ,Xochimilco,80405,PEDRO HENRIQUEZ ,MAR DE LAS TEMPESTADES ,4:33 PM,26-Feb-2018,Exceso de velocidad,648.22
-28,10,JUAN ALDAMA ,Iztapalapa,01798,TOTONACAS ,20 DE NOVIEMBRE ,10:49 PM,17-May-2018,No respetar la luz roja del semáforo,1377.15
-29,4,CALLE UNO ,Venustiano Carranza,46173,CALLE 20 DE NOVIEMBRE ,CAMPO FLORIDO ,5:51 PM,06-Mar-2018,Manejar en estado de ebriedad,859.88
-30,12,PIEDRAS NEGRAS ,Cuauhtémoc,06297,IZTACCIHUATL ,GALDINO H CASADOS ,10:53 PM,11-Dec-2017,Vuelta prohibida,772.69
-31,3,ESTANQUILLO ,Magdalena Contreras,15616,CONSTITUCION ,CALLE DE MINAS ,9:34 PM,11-Sep-2018,Circular en sentido contrario,4303.19
-32,4,CONTADORES ,Tláhuac,60907,ALMEJA ,SAN EMETERIO ,5:41 PM,13-Mar-2018,Estacionarse en lugares para discapacitados,4481.51
-33,7,1RA CERRADA CAMINO ,Iztacalco,30318,CALLE 60 ,PENNSYLVANIA ,4:26 PM,05-Oct-2018,No usar cinturón de seguridad,3735.89
-34,9,MIGUEL BARRAGAN ,Venustiano Carranza,25793,LEONARDO DA VINCI ,CRISTOBAL COLON ,10:42 PM,11-Mar-2018,Circular en sentido contrario,3319.23
-35,2,PERUA,Cuauhtémoc,86996,MANUEL PELAEZ ,SALTO DEL AGUA ,10:22 AM,22-Feb-2018,No respetar la luz roja del semáforo,2800.7
-36,5,CARMEN SERDAN ,Álvaro Obregón,34732,CIRCUITO PLAZA DE LA PAJA ,MANUEL DOBLADO ,9:31 AM,01-Dec-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2574.63
-37,2,VALLE DE TULANCINGO ,Iztacalco,39487,BULEVARD DE LA HACIENDA ,CLUB ATLAS ,10:06 AM,20-Mar-2018,Estacionarse en lugares para discapacitados,3104.5
-38,8,FRACCIONAMIENTO LAS ARBOLEDAS ,Álvaro Obregón,49218,GABRIEL RAMOS MILLAN ,BOULEVAR PASTOR ROUAIX ,3:51 PM,24-Mar-2018,Estacionarse en lugares para discapacitados,4246.94
-39,3,BOULEVAR PASTOR ROUAIX ,Álvaro Obregón,58421,CALLE PETIRROJO ,MIGUEL BARRAGAN ,2:37 PM,05-Oct-2018,Estacionarse en lugares para discapacitados,4346.24
-40,3,TLACOTAL ,Iztapalapa,85723,1RA NORTE ,TENAYUCA ,5:38 PM,15-Apr-2018,Vuelta prohibida,2666.13
-41,7,AV. SAN LORENZO TEZONCO ,Venustiano Carranza,49717,OLAS ALTAS ,JUAN ZAIZAR ,5:18 PM,22-Jun-2018,Exceso de velocidad,1663.01
-42,1,LERDO ,Magdalena Contreras,71622,DISTRITO EL PLAN ,ANDADOR 16 ,10:03 AM,20-Nov-2018,Manejar en estado de ebriedad,1885.59
-43,15,CHIAPANECAS ,Milpa Alta,86345,FRES,FRANCISCO LEIVA ,9:30 PM,18-Oct-2018,Circular en sentido contrario,1065.61
-44,2,UN HAB FUENTES BROTANTES ,Cuajimalpa de Morelos,48336,AGUILAS ,MORELOS ,6:58 PM,21-Dec-2017,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1229.95
-45,5,U. HAB SAN PABLO XALPA ,Benito Juárez,90399,FRANCISCO P. MIRANDA ,SN. CIPRIAN ,9:53 PM,16-Sep-2018,Manejar en estado de ebriedad,4330.15
-46,6,IZTACCIHUATL ,Iztacalco,34432,AV. QUERETARO ,CANAL SECO ,4:57 PM,27-Sep-2018,Circular en sentido contrario,3478.26
-47,8,TECNICOS Y MANUALES ,Tlalpan,34603,FRANCISCO P. MIRANDA ,JORGE WASHINGTON ,6:38 PM,30-Jul-2018,Uso de distractores,4068.74
-48,12,CALLEJON ITURBE ,Gustavo A. Madero,55801,FRANCISCO LEIVA ,FRANCISCO SARABIA ,4:55 PM,13-Sep-2018,Circular en sentido contrario,2750.59
-49,4,CONVENTO ,Magdalena Contreras,63792,ADELAIDA ,AV. ZACAMULPA ,4:13 PM,17-May-2018,Vuelta prohibida,869.81
-50,12,ROSAS ,Cuajimalpa de Morelos,49035,CAPIRO ,CDA. APETLATIPAC ,4:07 PM,30-Aug-2018,No usar cinturón de seguridad,4405.45
-51,2,PIEDRA CALIZA ,Cuajimalpa de Morelos,50007,PRIMERA CERRDA DE MARGARITAS ,LABORISTAS ,8:14 PM,08-Oct-2018,Circular en sentido contrario,2472.23
-52,1,PUERTO ACAPULCO ,Tláhuac,00196,NULL ,PINARES ,7:21 PM,27-Apr-2018,Manejar en estado de ebriedad,3208.46
-53,5,25 DE FEBRERO DE 1861 ,Miguel Hidalgo,06972,RETORNO 9 DE TRONCOSO ,OMEGA ,5:45 PM,14-Jun-2018,Vuelta prohibida,1172.08
-54,7,CARRETERA PEREZ GASGA ,Magdalena Contreras,43110,ANDADOR PUENTE MONZON ,LOMBARDOS ,3:51 PM,07-Aug-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,2960.13
-55,5,ESMERALDA ,Milpa Alta,99747,ESTRELLA ,OBRERO MUNDIAL ,10:44 AM,11-Jan-2018,Estacionarse en lugares para discapacitados,4048.07
-56,3,LERDO ,Coyoacán,92410,ALZATE ,CALLE 5 DE MAYO ,3:44 PM,01-May-2018,Exceso de velocidad,3702.51
-57,11,CONVENTO ,Milpa Alta,94097,U. LOMAS DE PLATEROS ,CALLE 20 DE NOVIEMBRE ,7:26 PM,19-Jan-2018,Circular en sentido contrario,3872.65
-58,8,MARINA NACIONAL ,Magdalena Contreras,04200,OLAS ALTAS ,VALLE DE LOS TOLTECAS ,7:50 PM,16-Dec-2017,Exceso de velocidad,2799.7
-59,6,IZTACCIHUATL ,Azcapotzalco,17444,AGRICULTURA ,GALEANA ,2:02 PM,29-Dec-2017,Vuelta prohibida,1196.67
-60,6,ISABEL LA CATOLICA ,Gustavo A. Madero,65364,1A CERRADA DE CORREGIDORA ,CERRADA JORGE ROJO LUGO ,5:22 PM,10-Oct-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,567.28
-61,7,LOMA DEL GALLO ,Cuauhtémoc,96066,EUFEMIO ARREDONDO ,HERIBERTO FRIAS ,4:05 PM,02-Jun-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4926.7
-62,12,GUADALUPE VICTORIA ,Miguel Hidalgo,00476,OLAS ALTAS ,1A CDA DE OLIVOS ,11:27 PM,10-Nov-2018,Exceso de velocidad,4407.49
-63,3,MONTE ALBAN ,Álvaro Obregón,80472,CLAVELES ,CONSTITUCION ,10:30 PM,15-May-2018,Estacionarse en lugares para discapacitados,4549.44
-64,3,RODOLFO FIERRO ,Iztapalapa,06526,MARINO MOSCO ,TLACOTAL ,1:37 PM,01-Sep-2018,Circular en sentido contrario,4322.42
-65,9,LAS FLORES ,Cuauhtémoc,11083,VILLA DE LAS FLORES ,ALFONSO XIII ,1:54 PM,07-Jun-2018,Manejar en estado de ebriedad,1174.18
-66,12,TEJAMANIL ,Gustavo A. Madero,32759,PRIVADA FARALLON ,FRES,11:08 AM,16-Apr-2018,Uso de distractores,3480.21
-67,14,VICTORIANO SALADO ALVAREZ ,Benito Juárez,94925,CALLE DE MINAS ,MANUEL DOBLADO ,6:56 PM,02-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3975.15
-68,14,CERRADA CABRERA ,Cuauhtémoc,02381,JUAN ZAIZAR ,CALLE 5 DE MAYO ,5:34 PM,20-Apr-2018,Uso de distractores,3286.13
-69,9,TOTONACAS ,Gustavo A. Madero,48363,INDEPENDENCIA ,JORGE WASHINGTON ,11:44 AM,02-Nov-2018,No respetar la luz roja del semáforo,2862.05
-70,13,CLUB ATLAS ,Benito Juárez,65156,AV. SONORA NORTE ,CIPRES ,7:10 PM,18-Jul-2018,Uso de distractores,2297.13
-71,4,AV. QUERETARO ,Gustavo A. Madero,85291,PORTO ALEGRE ,LIBERTAD ,6:14 PM,19-May-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1747.28
-72,6,YUCATAN ,Iztapalapa,68725,STA. CLARA II ,CIR.JOSEFA ORTIZ ,2:05 PM,03-Sep-2018,Circular en sentido contrario,966.95
-73,7,3A. CERRADA DE SOLIDARIDAD ,Venustiano Carranza,15304,MANUEL GANDA ,PRIMERA AVENIDA ,3:04 PM,20-Sep-2018,No usar cinturón de seguridad,1409.78
-74,5,RAFAELA LOPEZ AGUADO ,Iztacalco,92206,LAS ROSAS ,BELLACO ,12:55 PM,13-Jun-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,568.26
-75,7,NUEVA TEOTIHUACAN ,Coyoacán,73659,MOCTEZUMA ,SAN MARCOS ,10:48 PM,27-Nov-2018,Vuelta prohibida,1107.88
-76,1,TENAYUCA ,Cuauhtémoc,82925,FRANCIA ,VALLE DE LOS TOLTECAS ,3:01 PM,01-Jul-2018,Exceso de velocidad,2474.09
-77,13,LA VENTA CLAUSTRO TULIPANES ,Iztacalco,21687,BRAVO ,PLZAS. VILLA DE MADRID ,6:25 PM,21-Dec-2017,Exceso de velocidad,2879.03
-78,11,XOLOTL ,Benito Juárez,34520,HEROES DE NACOZARI ,AVENIDA SAUCES ,12:46 PM,03-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1885.33
-79,8,CALLE PASO SOMOSIERRA ,Coyoacán,15208,CDA DE MINAS ,CDA. DE FRANCISCO CASTAÑEDA ,5:19 PM,21-Feb-2018,Circular en sentido contrario,2320.84
-80,3,CALANDRIA ,Milpa Alta,31295,FRES,U. HAB SAN PABLO XALPA ,2:27 PM,11-Jun-2018,No usar cinturón de seguridad,4988.75
-81,8,LOMA DE GUADALUPE ,Azcapotzalco,48835,COMUNAL ,CONTADORES ,10:18 PM,14-Apr-2018,Manejar en estado de ebriedad,3580.2
-82,6,INDUSTRIA MANUFACTURERA ,Cuajimalpa de Morelos,47395,DECORADO ,LAGO PATZCUARO ,2:59 PM,20-Jul-2018,No respetar la luz roja del semáforo,2613.06
-83,7,CARTILLA ,Coyoacán,84081,2DA CERRADA DE DURAZ,RETORNO ELIAS F. HURTADO ,8:53 PM,29-Jun-2018,Circular en sentido contrario,3288.28
-84,12,FRANCISCO VILLA ,Magdalena Contreras,90675,PARAJE ,AVENIDA SAN JERONIMO ,2:55 PM,10-Sep-2018,No respetar la luz roja del semáforo,2389.1
-85,13,JOSE SAAVEDRA DEL RAZO ,Álvaro Obregón,27644,AUGUSTO RODIN ,NEZAHUALCOYOTL ,7:33 PM,11-Sep-2018,Manejar en estado de ebriedad,1686.23
-86,5,U. LOMAS DE PLATEROS ,Tláhuac,09303,HIGUERA NUMERO ,CALZADA DE LAS BOMBAS ,11:36 AM,12-Oct-2018,Uso de distractores,4664.73
-87,14,CERRADA DE CUAUHTEMOC ,Tlalpan,98138,DAVID R. SCOTT ,CALLE LAZARO CARDENAS ,2:19 PM,28-Jan-2018,No usar cinturón de seguridad,4323.38
-88,13,FRANCISCO JAVIER MINA ,Iztacalco,54223,JACARANDAS ,PARAJE ,3:12 PM,22-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1307.48
-89,2,AV PACIFICO ,Benito Juárez,18579,EL ROSARIO ,CALLEJON ITURBE ,11:44 AM,24-Jun-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1283.01
-90,10,CRUCES ,Álvaro Obregón,44557,CALLE 4 ,FRANCISCO DEL PASO Y TRONCOSO ,11:47 AM,21-Jul-2018,Uso de distractores,3978.61
-91,7,ANDADOR DE LA ESMERALDA ,Venustiano Carranza,39648,ANDADOR ANTONIO RULLAN FERRER ,FRANCISCO JAVIER MINA ,7:10 PM,27-Jun-2018,Estacionarse en lugares para discapacitados,3045.88
-92,2,CERRO DE LAS PALOMAS ,Iztacalco,85396,JOSE SAAVEDRA DEL RAZO ,ARIZONA ,10:07 AM,09-Apr-2018,Manejar en estado de ebriedad,2658.04
-93,5,OLAS ALTAS ,Milpa Alta,57301,GALEANA ,PARQUE MOLINO DE FLORES ,11:11 PM,19-May-2018,Estacionarse en lugares para discapacitados,689.74
-94,14,ANDADOR PUENTE MONZON ,Cuauhtémoc,96367,CALLE DE MINAS ,CALLE 8 ,2:48 PM,28-Jun-2018,No respetar la luz roja del semáforo,3955.63
-95,5,LABNA ,Gustavo A. Madero,87555,DR. JOSE G. PARRES ,AMORES ,6:04 PM,27-Jul-2018,Circular en sentido contrario,4327.89
-96,8,CDA. DE FRANCISCO CASTAÑEDA ,Iztacalco,32309,AV VICENTE RIVA PALACIO ,SUR 113 A ,1:29 PM,13-Jan-2018,Vuelta prohibida,2103.33
-97,8,PRIMERA CERRADA DE LAS ROSAS ,Benito Juárez,53560,BERNAL DIAZ DEL CASTILLO ,IXTLE ,9:31 AM,26-Nov-2018,Circular en sentido contrario,3681.37
-98,8,ARTEMISAS ,Venustiano Carranza,02997,CALLE 5 DE FEBRERO ,ANDADOR 24 MANUELA SAENZ ,2:40 PM,28-Jul-2018,No usar cinturón de seguridad,1496.79
-99,4,INDUSTRIA MANUFACTURERA ,Magdalena Contreras,81853,BRUSELAS ,MORELOS ,1:30 PM,06-Nov-2018,Manejar en estado de ebriedad,1637.56
-100,9,TEMALACA ,Magdalena Contreras,54772,AV. QUERETARO ,GALDINO H CASADOS ,9:22 PM,25-Feb-2018,Exceso de velocidad,1844.56
-101,7,CDA. DE FRANCISCO CASTAÑEDA ,Cuauhtémoc,73953,QUETZALCOATL ,JOAQUIN GARCIA LUNA ,7:06 PM,18-Jul-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4887.66
-102,10,CRISTOBAL COLON ,Miguel Hidalgo,78745,SAN FRANCISCO ,CERRO DOS CONEJOS ,6:39 PM,30-Jan-2018,No respetar la luz roja del semáforo,2465.33
-103,4,AGUAJE ,Tláhuac,56257,FRACCIONAMIENTO LAS ARBOLEDAS ,CONTADORES ,9:43 AM,28-Sep-2018,Exceso de velocidad,4530.38
-104,15,FRES,Magdalena Contreras,00701,SAGITARIO ,CERRO DE LAS PALOMAS ,2:34 PM,29-Oct-2018,Manejar en estado de ebriedad,2084.53
-105,2,ORIENTE ,Cuajimalpa de Morelos,64725,ISABEL LA CATOLICA ,TEMALACA ,10:11 PM,13-May-2018,Circular en sentido contrario,807.66
-106,11,RAFAELA LOPEZ AGUADO ,Tláhuac,83872,PRIVADA AZOYAPAN ,CALLE 20 DE NOVIEMBRE ,5:45 PM,02-Jan-2018,Manejar en estado de ebriedad,2388.04
-107,8,PRIV. ABASOLO ,Cuauhtémoc,98713,COPAL ,AV. QUERETARO ,9:06 PM,20-May-2018,Vuelta prohibida,4334.35
-108,13,TLACOTAL ,Miguel Hidalgo,29862,AND LAS LEYES DE REFORMA ,RODOLFO FIERRO ,11:00 AM,20-Aug-2018,Exceso de velocidad,2568.7
-109,2,ARRECIFE ,Miguel Hidalgo,92617,PRIVADA AZOYAPAN ,PUERTO ACAPULCO ,8:17 PM,13-Jul-2018,Vuelta prohibida,3857.81
-110,4,FRES,Magdalena Contreras,78884,NIÑOS HEROES ,OLIVO ,4:01 PM,21-Oct-2018,Circular en sentido contrario,767.36
-111,11,3A. CERRADA DE SOLIDARIDAD ,Azcapotzalco,93701,NULL ,ROSAS ,7:51 PM,28-Jan-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,3827.79
-112,1,FRANCISCO P. MIRANDA ,Álvaro Obregón,99020,AV. ZACAMULPA ,VICTORIANO SALADO ALVAREZ ,8:27 PM,17-Jun-2018,No usar cinturón de seguridad,1957.19
-113,8,1A CDA DE OLIVOS ,Venustiano Carranza,26301,EJIDO MAGDALENA PETLACALCO ,AV. UNIVERSIDAD ,12:28 PM,26-Dec-2017,Vuelta prohibida,4471.19
-114,6,TULTEPEC ,Iztacalco,18219,CARRETERA PEREZ GASGA ,BUENA VISTA ,6:57 PM,09-Oct-2018,Vuelta prohibida,4634.63
-115,2,CLAVELES ,Tlalpan,75037,CONTADORES ,AV. ALTILLO ,11:55 AM,12-Jun-2018,Uso de distractores,3029.96
-116,8,CDA DE MINAS ,Iztacalco,72024,LOMBARDOS ,ANGEL TRIAS ,4:46 PM,07-Dec-2018,Uso de distractores,3789.46
-117,1,PERU ,Xochimilco,96387,NIÑOS HEROES ,AHUACATL ,3:40 PM,22-Feb-2018,No usar cinturón de seguridad,4947.44
-118,10,EXCONVENTO DE CHURUBUSCO ,Azcapotzalco,36149,NEZAHUALCOYOTL ,GALEANA ,12:02 PM,22-Feb-2018,No respetar la luz roja del semáforo,1821.82
-119,1,PALMIRA ,Azcapotzalco,90159,AV. ERMITA ,ADELAIDA ,11:46 PM,28-Mar-2018,Uso de distractores,2233.38
-120,11,COPAL ,Cuauhtémoc,72816,CAPIRO ,JORGE WASHINGTON ,11:49 PM,17-Feb-2018,Uso de distractores,3018.3
-121,12,PALMERAS ,Tlalpan,71513,PARAJE ,HIDALGO ,5:21 PM,02-Oct-2018,No respetar la luz roja del semáforo,3352.34
-122,7,SANTA MARIA ,Coyoacán,51257,CAMPO FLORIDO ,CALLE TABASCO ,7:33 PM,15-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2222.11
-123,1,CLAVELES ,Xochimilco,08881,PRIMERA CERRADA DE LAS ROSAS ,PRIMERA CERRADA DE ROBLE ,12:18 PM,22-Sep-2018,No respetar la luz roja del semáforo,1695.76
-124,6,AGUILAS ,Venustiano Carranza,81492,CHICARAS ,PLAZUELA 1 DE SAN PEDRO ,6:43 PM,12-Nov-2018,No respetar la luz roja del semáforo,590.12
-125,5,CTO. LAZARO CARDENAS ,Xochimilco,99722,AVENIDA PAPANTLA ,1RA CERRADA CAMINO ,10:28 AM,27-Mar-2018,Exceso de velocidad,3701.94
-126,6,NEZAHUALCOYOTL ,Magdalena Contreras,89302,ALDAMA ,EL ROSARIO ,7:49 PM,29-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2909.81
-127,14,CHIAPANECAS ,Venustiano Carranza,05791,CALLE 1 ,SN. CIPRIAN ,4:35 PM,02-Apr-2018,Uso de distractores,4620.47
-128,13,CALLE PARROQUIA ,Azcapotzalco,51217,MIGUEL NEGRETE ,MARGARITA MAZA DE JUAREZ ,2:07 PM,26-Aug-2018,Uso de distractores,4862.44
-129,8,EL ROSARIO ,Benito Juárez,50623,AMAPOLA ,CAPIRO ,10:28 AM,12-Jan-2018,Vuelta prohibida,1881.63
-130,5,LABORISTAS ,Álvaro Obregón,88809,CERRO DE LAS PALOMAS ,FELIPE ANGELES ,2:23 PM,02-Aug-2018,No usar cinturón de seguridad,3958.39
-131,3,MANUEL PELAEZ ,Venustiano Carranza,58032,CONVENTO ,VERIN ,7:57 PM,06-Jan-2018,Exceso de velocidad,547.61
-132,13,CALLE 1 ,Benito Juárez,18202,SAGITARIO ,HOMBRES ILUSTRES ,10:07 PM,07-Dec-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,583.6
-133,9,ANTONIO VALERIANO ,Iztapalapa,08868,LABNA ,COMUNAL ,1:57 PM,05-Dec-2018,Uso de distractores,1722.99
-134,11,GUERRERO ,Venustiano Carranza,29402,MAR JONICO ,VALLE PASSOS ,2:51 PM,25-Nov-2018,Manejar en estado de ebriedad,4875.95
-135,3,CLUB ATLAS ,Miguel Hidalgo,01257,HEMICICLO A JUAREZ ,JAMES MONROE ,8:44 PM,30-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1227.84
-136,11,PATRICIO SANZ ,Cuajimalpa de Morelos,38066,BOCA DEL RIO ,UNIDAD HABITACIONAL MILITAR ,3:34 PM,03-Jul-2018,Manejar en estado de ebriedad,2084.13
-137,8,OBRERO MUNDIAL ,Magdalena Contreras,75928,U. HAB SAN PABLO XALPA ,CALLE GRANADAS ,2:19 PM,07-Dec-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2316.13
-138,9,AV MEXICO ,Gustavo A. Madero,43517,VICENTE GUERRERO ,LAGO BOLSENA ,10:05 AM,13-Dec-2017,Exceso de velocidad,2069.76
-139,12,ADRIANA ,Tláhuac,62982,PARAJE ,LAGO MANAGUA ,9:18 AM,09-Apr-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4224.03
-140,2,TENTEL ,Coyoacán,07036,CALANDRIA ,LLUVIA ,9:21 AM,11-Sep-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4137.37
-141,7,CAOBAN ,Milpa Alta,66988,ROSAS ,PRIV. CALLE 9 ,11:12 AM,09-Mar-2018,Circular en sentido contrario,947.44
-142,13,CALLE ZARAGOZA ,Tlalpan,07652,CONSTITUCION ,IXTLIXOCHITL ,8:04 PM,13-Feb-2018,Uso de distractores,3985.37
-143,8,NULL ,Benito Juárez,06279,BOULEVARD MALINTZI ,PRIMERA CERRADA DE ROBLE ,11:52 PM,14-Jan-2018,Circular en sentido contrario,4817.42
-144,15,NORTE 74 ,Cuauhtémoc,96400,EL ROSARIO ,BOULEVARD MALINTZI ,1:39 PM,26-Jan-2018,Manejar en estado de ebriedad,4049.58
-145,7,NATIVITAS ,Álvaro Obregón,75576,CANAL SECO ,ARIZONA ,10:05 PM,21-Oct-2018,Manejar en estado de ebriedad,1976.89
-146,4,CALLE 4 ,Álvaro Obregón,33962,16 DE SEPTIEMBRE ,REFORMA OBRERA ,6:53 PM,08-Feb-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1418.83
-147,8,GRECIA ,Iztacalco,05509,MIERES ,PRIVADA DE HIPODROMO ,6:20 PM,18-Jul-2018,No respetar la luz roja del semáforo,1827.04
-148,9,VALLE PASSOS ,Xochimilco,08342,1A CERRADA DE CORREGIDORA ,TENORIOS ,1:57 PM,25-Nov-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1218.39
-149,2,BLVD. ADOLFO LOPEZ MATEOS ,Tlalpan,82227,NESMEL ,PRIVADA EXHACIENDA DE LA ESCALERA ,11:05 PM,14-May-2018,No respetar la luz roja del semáforo,523.27
-150,3,CALLE 24 ,Tlalpan,53126,TEKIT ,FRANCISCO LEIVA ,8:21 PM,05-Jun-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2455.0
+1,3,D7HKXA7A,38,CALLE 6 ,Xochimilco,19716,CHIAPANECAS ,JACARANDAS ,12:01 PM,06-Dec-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2884.08
+2,5,RWPTI6LA,100,CUAUTITLAN ,Iztapalapa,58462,BARRIO DE SAN JOSÉ ,DR. JOSE G. PARRES ,11:52 AM,26-Mar-2018,No usar cinturón de seguridad,1498.71
+3,2,CANAR7J0,90,VILLA DE CUITLAHUAC ,Gustavo A. Madero,27824,AV. ERMITA ,CHICOASEN ,10:30 AM,24-Jun-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1601.91
+4,11,WW59DL02,45,U. LOMAS DE PLATEROS ,Tláhuac,67950,AV VICENTE RIVA PALACIO ,CIRCUITO PLAZA DE LA PAJA ,3:19 PM,25-Mar-2018,Vuelta prohibida,2798.08
+5,8,IU48BR6G,75,DR BALMIS ,Tlalpan,97787,ATLETAS ,HORACIO NELSON ,2:00 PM,15-Dec-2017,Exceso de velocidad,3151.89
+6,13,Y3L31C18,7,JUAN ALDAMA ,Gustavo A. Madero,29507,REFORMA OBRERA ,RAFAELA LOPEZ AGUADO ,2:46 PM,20-Apr-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3472.31
+7,1,C4M7RYT5,100,CDA. MANZANO ,Xochimilco,32049,CDA. APETLATIPAC ,VILLA DE CUITLAHUAC ,10:35 AM,27-Oct-2018,Circular en sentido contrario,1768.23
+8,13,A1Z0OX83,18,UN HAB FUENTES BROTANTES ,Cuauhtémoc,41278,JUAREZ ,PRIMERA CERRADA DE ROBLE ,7:32 PM,22-Dec-2017,Manejar en estado de ebriedad,2505.33
+9,13,G84O86K6,77,OLIVO ,Miguel Hidalgo,08059,NUEVA TABACHIN ,EDIF AGUAMIEL ,8:59 PM,15-Jul-2018,No usar cinturón de seguridad,3743.33
+10,7,S3Y181RS,7,NUEVA YORK ,Tlalpan,90574,VALLE DE LOS TOLTECAS ,AVENIDA CENTENARIO ,9:06 PM,06-Feb-2018,No respetar la luz roja del semáforo,4958.01
+11,10,KW2DHUI5,22,U. HAB SAN PABLO XALPA ,Milpa Alta,85442,MUNICIPIO LIBRE ,ONCE MARTIRES ,12:25 PM,01-Dec-2018,Manejar en estado de ebriedad,3018.34
+12,13,I7S6CY55,13,CALLE DE MINAS ,Gustavo A. Madero,54490,BELLACO ,FRANCIA ,7:39 PM,06-Jun-2018,Vuelta prohibida,2647.88
+13,12,QP78W194,67,GUADALUPE VICTORIA ,Azcapotzalco,54624,ANANTLI ,IXTLIXOCHITL ,9:11 AM,18-Jun-2018,No usar cinturón de seguridad,3982.63
+14,12,R5V5BNMF,100,AV. UNIVERSIDAD ,Cuajimalpa de Morelos,99429,HDA DE JILOTEPC ,CAOBA ,6:01 PM,17-May-2018,Estacionarse en lugares para discapacitados,2628.07
+15,6,C4M7RYT5,57,BOSQUES DE BRUSELAS ,Tlalpan,14380,ROA BARCENAS ,MANUEL PELAEZ ,8:31 PM,23-Dec-2017,Manejar en estado de ebriedad,2660.42
+16,2,R5V5BNMF,45,CALLE 6 ,Xochimilco,10727,ESTRELLA ,GUERRERO ,6:12 PM,25-Mar-2018,No usar cinturón de seguridad,1309.6
+17,7,JCQNP9P0,35,BUENA VISTA ,Benito Juárez,74509,MESETA ,HEROES DE NACOZARI ,11:51 PM,06-Jan-2018,Manejar en estado de ebriedad,2412.37
+18,9,ZA6LC3PQ,90,JESUS GARCIA MORALES ,Gustavo A. Madero,94167,3ERA. CERRADA DE COPAL ,2 AVENIDA SUR ,2:43 PM,30-Apr-2018,Manejar en estado de ebriedad,3717.35
+19,11,GOC5ZI3H,37,2DA CERRADA DE LOMA LINDA ,Milpa Alta,18020,GUADALUPE VICTORIA ,BUENA SUERTE ,5:22 PM,23-Nov-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,616.61
+20,2,TXEV64YX,4,PUERTO MARQUEZ ,Cuauhtémoc,19486,SUR 113 A ,CARRETERA PEREZ GASGA ,4:39 PM,29-Jan-2018,No usar cinturón de seguridad,2962.44
+21,9,IH776VM6,62,LAGO GARDA ,Tláhuac,26692,JUAN SANCHEZ AZCONA ,AV. QUERETARO ,12:39 PM,27-Nov-2018,Manejar en estado de ebriedad,3163.58
+22,5,MP166CKE,26,PROLON BUEAIRES ,Cuajimalpa de Morelos,15092,CALLE 20 DE NOVIEMBRE ,LAGO PATZCUARO ,9:32 AM,18-Jun-2018,Estacionarse en lugares para discapacitados,1907.08
+23,3,SMZGG44P,29,MIGUEL NEGRETE ,Azcapotzalco,55351,ARIZONA ,CIPRES ,3:03 PM,31-Jan-2018,Manejar en estado de ebriedad,2204.04
+24,9,HBFWP7QQ,55,JUAREZ ,Azcapotzalco,48594,2DA CERRADA DE LOMA LINDA ,JAVIER MARTINEZ ,3:22 PM,20-Jan-2018,Vuelta prohibida,4346.98
+25,7,IH776VM6,10,1A CERRADA DE CORREGIDORA ,Benito Juárez,11413,HOPELCHEN ,CHIMALPOPOCA ,10:21 PM,24-Dec-2017,Exceso de velocidad,2994.58
+26,13,N1AKJ8P5,84,CALLEJON ITURBE ,Gustavo A. Madero,49785,AV. ZACAMULPA ,TECNICOS Y MANUALES ,3:44 PM,07-Sep-2018,Exceso de velocidad,4211.5
+27,5,YK7P7I99,99,NATIVITAS ,Coyoacán,71545,PARAJE ,CALLE GARDENIA ,3:39 PM,28-Sep-2018,Circular en sentido contrario,2927.3
+28,15,I7S6CY55,85,3A. CERRADA DE SOLIDARIDAD ,Milpa Alta,08957,ALMEJA ,U. LOMAS DE PLATEROS ,6:49 PM,16-Dec-2017,Manejar en estado de ebriedad,3429.61
+29,11,JCQNP9P0,62,CHICOASEN ,Tlalpan,67153,CALZADA DE LA ROMERIA ,VALLE DE TULANCINGO ,10:19 PM,07-Oct-2018,Vuelta prohibida,853.08
+30,5,SMZGG44P,10,AVENIDA SAN JERONIMO ,Iztapalapa,05853,LERDO ,GARDENIAS ,11:14 PM,03-May-2018,Circular en sentido contrario,4347.46
+31,10,LN6U69Z6,47,CENZONTLE ,Coyoacán,94376,JAIME NUNO ,BERNAL DIAZ DEL CASTILLO ,1:56 PM,13-Oct-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4770.69
+32,1,JN24S7HA,4,CHIAPANECAS ,Iztapalapa,47442,REAL DE LA ARBOLEDA ,JUAN ZAIZAR ,1:24 PM,16-Dec-2017,Uso de distractores,3850.7
+33,11,QCO75924,4,BUENA SUERTE ,Benito Juárez,40843,HEROES DE NACOZARI ,ANTONIO VALERIANO ,8:18 PM,27-Nov-2018,Uso de distractores,4015.1
+34,4,KW2DHUI5,45,AMORES ,Coyoacán,14262,PRIMERA CERRADA DE LAS ROSAS ,SN. CIPRIAN ,12:12 PM,25-Sep-2018,Estacionarse en lugares para discapacitados,4326.63
+35,15,EX7Z0O96,51,NEZAHUALCOYOTL ,Gustavo A. Madero,42529,CALVARIO ,PRADOS DE CEDRO ,1:08 PM,20-Oct-2018,Exceso de velocidad,1272.5
+36,11,J76D1KXN,29,CERRO DOS CONEJOS ,Milpa Alta,53760,CAMPESI,PROL AHUEJOTES ,4:08 PM,07-Jun-2018,Vuelta prohibida,3433.42
+37,7,UX8N109O,9,FRANCISCO P. MIRANDA ,Gustavo A. Madero,84069,CERRADA CABRERA ,EUFEMIO ARREDONDO ,7:56 PM,13-May-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1484.88
+38,9,GOC5ZI3H,78,JAVIER MARTINEZ ,Iztacalco,87052,AV. QUERETARO ,DAVID R. SCOTT ,7:36 PM,08-Apr-2018,No respetar la luz roja del semáforo,2681.4
+39,11,U15T3B58,94,CALLE PASO SOMOSIERRA ,Tláhuac,52877,BUENA SUERTE ,AV. TOLUCA ,11:41 PM,12-Oct-2018,No respetar la luz roja del semáforo,2514.01
+40,15,U987SI42,18,CALLE 60 ,Coyoacán,37329,CERRO DE LAS PALOMAS ,EMILIO CARRANZA ,9:14 PM,02-Jun-2018,No usar cinturón de seguridad,2712.71
+41,6,IU48BR6G,18,RETORNO ELIAS F. HURTADO ,Cuajimalpa de Morelos,83197,ROA BARCENAS ,AV. CRISTOBAL HIDALGO ,9:13 PM,26-Apr-2018,No usar cinturón de seguridad,2406.58
+42,11,Y7GX6X3Y,8,CERRADA DE CUAUHTEMOC ,Iztapalapa,78479,BOULEVARD MALINTZI ,PRIV. ABASOLO ,9:51 PM,30-Mar-2018,Manejar en estado de ebriedad,1612.61
+43,3,QP78W194,11,FRES,Tláhuac,99187,CALLE UNO ,AV JALISCO ,11:04 PM,03-Mar-2018,Exceso de velocidad,4697.77
+44,10,T69K9A18,77,CERRADA CABRERA ,Venustiano Carranza,62055,AV MEXICO ,STA. CLARA II ,2:04 PM,30-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3251.76
+45,8,R5V5BNMF,89,VISTA HERMOSA ,Álvaro Obregón,65620,GRAL. RINCON ,AGUAJE ,10:09 PM,30-Dec-2017,Vuelta prohibida,1621.41
+46,3,KDMK79D5,3,GRECIA ,Álvaro Obregón,16325,CALZADA DE LA VIRGEN ,ALTOMONTE ,9:52 PM,29-Sep-2018,Circular en sentido contrario,1257.12
+47,15,RA630MC2,21,CIRCUITO PLAZA DE LA PAJA ,Cuajimalpa de Morelos,96268,LOMA DEL GALLO ,HDA DE JILOTEPC ,3:49 PM,11-Jul-2018,Vuelta prohibida,2059.73
+48,11,B9NX9PQ8,80,CAOBAN ,Benito Juárez,11689,ERICKO EL ROJO ,AV. JOSE LORETO FABELA ,5:44 PM,27-Dec-2017,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2386.96
+49,11,KDMK79D5,79,CAPIRO ,Magdalena Contreras,45113,TIBURCIO MONTIEL ,RENATO LEDUC ,10:40 AM,31-Oct-2018,Estacionarse en lugares para discapacitados,1380.27
+50,13,TKTO813P,71,NESMEL ,Miguel Hidalgo,17653,OBRERO MUNDIAL ,TENORIOS ,5:56 PM,12-Aug-2018,Circular en sentido contrario,1434.17
+51,11,M221739X,10,MONROVIA ,Milpa Alta,24425,MIGUEL NEGRETE ,OMEGA ,10:49 PM,08-Jul-2018,Manejar en estado de ebriedad,4615.33
+52,11,G84O86K6,89,CLUB ATLAS ,Miguel Hidalgo,50712,AV. SAN PABLO XALPA ,AV. NACIONES UNIDAS ,4:38 PM,01-Dec-2018,Vuelta prohibida,3045.58
+53,5,GYMA6DT5,84,PONIENTE 22 ,Tláhuac,39175,PERIFERICO ,GARDENIAS ,12:06 PM,07-Jun-2018,Uso de distractores,3324.49
+54,1,B0455B46,61,AVENIDA SAN JERONIMO ,Tláhuac,78610,PUERTO ACAPULCO ,CALLE FLORES MAGON ,4:24 PM,25-Dec-2017,Estacionarse en lugares para discapacitados,1755.92
+55,7,EX7Z0O96,20,BELLACO ,Venustiano Carranza,98430,ALAMOS ,CDA. DE FRANCISCO CASTAÑEDA ,1:30 PM,04-Feb-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4233.07
+56,5,Y3L31C18,58,BRUSELAS ,Coyoacán,12334,25 DE FEBRERO DE 1861 ,BATALLA DE CALPULALPAN ,11:36 AM,15-Sep-2018,Manejar en estado de ebriedad,1341.9
+57,12,N44Q741F,32,CUAUTITLAN ,Cuajimalpa de Morelos,79913,ESTRELLA ,DR ARCE ,11:06 AM,30-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2259.52
+58,14,SMZGG44P,23,BALVANERA ,Benito Juárez,89776,CALZ. DESIERTO DE LOS LEONES ,EX. HACIENDA SAN CAYETANO ,12:35 PM,02-Dec-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4305.2
+59,4,RWPTI6LA,58,TIBURCIO MONTIEL ,Venustiano Carranza,56703,JUAN SANCHEZ AZCONA ,CALANDRIA ,2:22 PM,11-Jul-2018,Exceso de velocidad,4911.58
+60,10,B9NX9PQ8,97,RODOLFO FIERRO ,Tláhuac,76127,HERIBERTO FRIAS ,LOMA DE GUADALUPE ,3:27 PM,16-Feb-2018,No usar cinturón de seguridad,3690.64
+61,5,R900Z5T0,41,TLACOTAL ,Xochimilco,32182,PUERTO ACAPULCO ,VALLE PASSOS ,11:26 AM,16-May-2018,No respetar la luz roja del semáforo,984.7
+62,7,ZNE2S15V,32,CIRCUITO PLAZA DE LA PAJA ,Benito Juárez,84174,OLAS ALTAS ,MIGUEL BARRAGAN ,3:06 PM,03-Apr-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4779.2
+63,6,R5V5BNMF,44,PRIV. CALLE 9 ,Iztapalapa,40087,BERNAL DIAZ DEL CASTILLO ,AV. ERMITA ,11:14 PM,22-Dec-2017,Invasión de carriles confinados a ciclovías y carril del Metrobus,2319.01
+64,12,B7J9330W,51,ALTOMONTE ,Iztacalco,55255,NUEVA TEOTIHUACAN ,IGNACIO L. VALLARTA ,4:17 PM,01-Oct-2018,Estacionarse en lugares para discapacitados,1920.7
+65,12,KW2DHUI5,48,CDA DE MINAS ,Álvaro Obregón,06868,CERRADA JORGE ROJO LUGO ,CALLE10 DE ABRIL ,10:14 AM,12-Aug-2018,Vuelta prohibida,1838.74
+66,13,D7HKXA7A,93,QUETZALCOATL ,Cuajimalpa de Morelos,72758,CLAVELES ,BALVANERA ,2:09 PM,10-Dec-2017,No usar cinturón de seguridad,600.67
+67,13,Y3L31C18,3,CARTILLA ,Cuauhtémoc,59809,XOLOTL ,AV. RIO CHURUBUSCO ,9:24 AM,18-May-2018,Manejar en estado de ebriedad,1678.11
+68,6,MP166CKE,10,AVENIDA POLVORA ,Milpa Alta,78818,CDA. MANZANO ,TENORIOS ,8:08 PM,17-Mar-2018,Circular en sentido contrario,1306.04
+69,9,IU48BR6G,80,1ERA. CERRADA DE ENCINAS ,Benito Juárez,79508,ANDADOR DEL LLANO ,SANTA MARIA ,7:46 PM,01-Nov-2018,Circular en sentido contrario,3295.59
+70,15,WW59DL02,71,LAGO PATZCUARO ,Cuauhtémoc,12931,TABASCO ,AV VICENTE RIVA PALACIO ,5:41 PM,07-Apr-2018,No respetar la luz roja del semáforo,4046.14
+71,8,SSOZVHVC,14,NUEVA TABACHIN ,Milpa Alta,37245,CDA. DE FRESNO ,HEROES DE NACOZARI ,9:00 AM,28-Dec-2017,Exceso de velocidad,624.13
+72,12,M221739X,24,TEMALACA ,Tlalpan,54010,AV. LAS TORRES ,CONTADORES ,2:12 PM,03-Jul-2018,No respetar la luz roja del semáforo,3302.52
+73,2,W29FF1ME,25,CRISTOBAL COLON ,Iztacalco,58320,AV. RIO CHURUBUSCO ,PEDRO AGUIRRE CERDA ,11:00 AM,07-Mar-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3509.75
+74,4,W3443TE5,21,COLIMA ,Tláhuac,67140,NEZAHUALCOYOTL ,MARINA NACIONAL ,3:37 PM,29-Nov-2018,Vuelta prohibida,2135.15
+75,8,J76D1KXN,44,AV. NACIONES UNIDAS ,Coyoacán,88698,ALCANFORES ,ADRIAN BROWER ,10:00 PM,17-Jul-2018,Estacionarse en lugares para discapacitados,2185.14
+76,13,LU11N645,76,FRES,Coyoacán,71056,RODOLFO FIERRO ,AV. MORELOS SUR ,5:35 PM,22-Nov-2018,Manejar en estado de ebriedad,4847.41
+77,7,T69K9A18,26,MOSQUETA ,Azcapotzalco,40360,PROVIDENCIA ,AV. ZACAMULPA ,10:24 PM,04-Sep-2018,Vuelta prohibida,2084.18
+78,13,D7HKXA7A,15,VILLA DE LAS FLORES ,Miguel Hidalgo,15892,CIRCUITO PLAZA DE LA PAJA ,CALVARIO ,3:26 PM,09-Dec-2017,Manejar en estado de ebriedad,3749.89
+79,8,JN24S7HA,43,CALLE PASO SOMOSIERRA ,Tláhuac,02729,CALLE ZARAGOZA ,AGRICULTURA ,5:14 PM,07-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,687.27
+80,8,WW59DL02,24,GUADALUPE VICTORIA ,Álvaro Obregón,32088,EUFEMIO ARREDONDO ,2 AVENIDA SUR ,8:48 PM,24-Jun-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,698.7
+81,14,IU48BR6G,23,AGUAJE ,Iztacalco,26830,PIE DE LA CUESTA ,NATIVITAS ,9:00 AM,25-May-2018,Vuelta prohibida,1990.12
+82,4,GYMA6DT5,8,AV. SAN LORENZO TEZONCO ,Gustavo A. Madero,19679,DISTRITO EL PLAN ,5 DE MAYO ,1:57 PM,18-May-2018,Vuelta prohibida,3473.34
+83,12,M221739X,61,SAN EMETERIO ,Iztacalco,66348,CDA QUINTANA ROO ,LINO MERINO ,5:13 PM,01-Oct-2018,Vuelta prohibida,4007.76
+84,7,EX7Z0O96,82,MARIA ELENA SANDOVAL ,Cuauhtémoc,93659,1RA CERRADA CAMINO ,CALLE MELCHOR OCAMPO ,1:47 PM,01-Nov-2018,Vuelta prohibida,2749.59
+85,4,P5QS1G7H,62,ONOFRE CAPETO ,Venustiano Carranza,42631,ONOFRE CAPETO ,JUAN ALDAMA ,5:30 PM,06-Feb-2018,Circular en sentido contrario,3840.0
+86,15,N1AKJ8P5,7,AV LAS TORRES ,Álvaro Obregón,55145,PORTO ALEGRE ,NUEVO LEON ,7:45 PM,08-Apr-2018,Manejar en estado de ebriedad,3245.74
+87,13,W3443TE5,97,CALLE 60 ,Tlalpan,78364,MUNICIPIO LIBRE ,PRIVADA AZOYAPAN ,11:28 PM,30-Nov-2018,Circular en sentido contrario,1515.24
+88,4,SMZGG44P,3,CRUCES ,Milpa Alta,70919,OCOTAL ,AV. LA HUERTA ,6:33 PM,15-Nov-2018,Manejar en estado de ebriedad,1410.7
+89,12,T69K9A18,79,NUEVA YORK ,Iztacalco,42036,PRL. MOCTEZUMA ,GUERRERO ,5:26 PM,28-Sep-2018,Exceso de velocidad,4786.61
+90,15,JCQNP9P0,56,PROL DE GUADALUPE Y RAMIREZ ,Magdalena Contreras,53956,GARDENIAS ,ARTEMISAS ,7:00 PM,25-Dec-2017,Invasión de carriles confinados a ciclovías y carril del Metrobus,3691.88
+91,3,YK7P7I99,15,AMORES ,Miguel Hidalgo,87322,ATLETAS ,ANANTLI ,5:43 PM,11-May-2018,No usar cinturón de seguridad,3464.22
+92,11,C4M7RYT5,64,PUERTO ACAPULCO ,Álvaro Obregón,59051,HIDALGO ,DOCTOR JOSE MARIA VERTIZ ,6:08 PM,30-Jun-2018,Manejar en estado de ebriedad,2320.61
+93,12,SSOZVHVC,48,TONATIUH ,Iztacalco,58169,ARCO IRIS ,BRUSELAS ,8:56 PM,08-May-2018,Exceso de velocidad,3057.52
+94,9,KDMK79D5,3,PATRICIO SANZ ,Cuajimalpa de Morelos,79131,FRANCISCO SARABIA ,AV PACIFICO ,1:11 PM,12-Apr-2018,Vuelta prohibida,1650.38
+95,12,ZA6LC3PQ,73,ALZATE ,Milpa Alta,19151,AV. CASTILLO DE CHAPULTEPEC ,GRAL. RINCON ,11:25 PM,12-Apr-2018,No respetar la luz roja del semáforo,2022.1
+96,1,PZZ1449T,22,JAVIER MARTINEZ ,Cuauhtémoc,82813,PARAJE ,BALMACEDA ,9:39 PM,13-Mar-2018,Manejar en estado de ebriedad,3133.22
+97,7,QP78W194,70,PRIVADA EXHACIENDA DE LA ESCALERA ,Venustiano Carranza,48762,OMEGA ,NATIVITAS ,9:21 AM,21-Sep-2018,No respetar la luz roja del semáforo,4082.83
+98,15,LU11N645,5,CLAVELES ,Gustavo A. Madero,78913,HEROES DE NACOZARI ,REFORMA OBRERA ,2:23 PM,29-Jan-2018,No respetar la luz roja del semáforo,2768.43
+99,13,KW2DHUI5,41,CALLE GARDENIA ,Milpa Alta,76185,1RA NORTE ,FRANCISCO JAVIER MINA ,6:55 PM,24-Apr-2018,Vuelta prohibida,2756.48
+100,13,YMXYQU0P,57,CALLE ZARAGOZA ,Milpa Alta,43353,JAVIER MARTINEZ ,CHICARAS ,1:16 PM,25-Aug-2018,No respetar la luz roja del semáforo,3877.33
+101,5,LU11N645,1,INDEPENDENCIA ,Milpa Alta,00268,CAMINO REAL AL AJUSCO ,SEBASTIAN L TEJADA ,8:11 PM,01-Jun-2018,Manejar en estado de ebriedad,628.66
+102,2,YK7P7I99,71,FRESNO ,Miguel Hidalgo,33836,1A. CALLE SUR ,ZARAGOZA ,10:36 PM,04-Jan-2018,No usar cinturón de seguridad,1892.21
+103,2,IH776VM6,87,LAGO GARDA ,Tlalpan,49848,GUERRILLERA ,EUFEMIO ARREDONDO ,11:30 AM,29-Sep-2018,Estacionarse en lugares para discapacitados,3217.86
+104,6,ZT629SN7,14,QUETZALCOATL ,Xochimilco,39114,GRECIA ,PLZAS. VILLA DE MADRID ,9:24 AM,29-Jan-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1734.94
+105,14,SSOZVHVC,76,CARTILLA ,Tláhuac,63621,ALCATRAZ ,CDA. MANZANO ,3:28 PM,25-Mar-2018,No usar cinturón de seguridad,2364.3
+106,9,W29FF1ME,55,OLIVO ,Milpa Alta,05500,CAPIRO ,MONROVIA ,11:04 PM,24-Aug-2018,Manejar en estado de ebriedad,2989.24
+107,3,K0F90INC,28,ROSAS ,Magdalena Contreras,98503,JAIME NUNO ,VILLA FRATI ,4:12 PM,18-Oct-2018,Exceso de velocidad,4999.91
+108,5,ZNE2S15V,39,GALEANA ,Cuauhtémoc,35172,FERNANDO ROMAN LUGO ,BOLIVAR ,3:43 PM,22-Sep-2018,Manejar en estado de ebriedad,2685.07
+109,8,CANAR7J0,82,BAJADA DEL SALTO ,Tlalpan,78852,PIE DE LA CUESTA ,LEONARDO DA VINCI ,10:00 PM,30-Jul-2018,No respetar la luz roja del semáforo,3616.47
+110,13,QP78W194,52,CALZADA DE LAS BOMBAS ,Tlalpan,91469,VERIN ,MANUEL DOBLADO ,9:22 PM,25-Mar-2018,Manejar en estado de ebriedad,4181.17
+111,15,SSOZVHVC,4,ESMERALDA ,Iztacalco,36123,AILE ,TEMALACA ,3:37 PM,05-Nov-2018,Manejar en estado de ebriedad,3736.8
+112,9,ZNE2S15V,43,PORTO ALEGRE ,Venustiano Carranza,44693,CALLE DE MINAS ,VALLE DE LOS TOLTECAS ,11:00 PM,21-Jul-2018,Uso de distractores,4334.03
+113,14,J3J343OM,95,POLYUC ,Tláhuac,60910,AV. SAN PABLO XALPA ,AV. JOSE DEL PILAR ,3:30 PM,05-May-2018,Uso de distractores,1692.88
+114,14,K0F90INC,9,BOSQUES DE BRUSELAS ,Iztapalapa,02747,20 DE NOVIEMBRE ,GUIPUZCOA ,6:00 PM,19-Oct-2018,Exceso de velocidad,3074.62
+115,9,J76D1KXN,15,SAGITARIO ,Venustiano Carranza,10701,AV. CRISTOBAL HIDALGO ,JUAREZ ,3:58 PM,13-Apr-2018,Manejar en estado de ebriedad,4964.63
+116,11,CANAR7J0,82,AGRICULTURA ,Miguel Hidalgo,74074,LA GARITA ,SAN EMETERIO ,3:32 PM,03-Apr-2018,Manejar en estado de ebriedad,4143.05
+117,1,A1Z0OX83,38,PROLON BUEAIRES ,Miguel Hidalgo,71437,LAS FLORES ,RAFAELA LOPEZ AGUADO ,2:41 PM,02-Jul-2018,Manejar en estado de ebriedad,3809.74
+118,6,CA6A5KC2,44,HEROES DE NACOZARI ,Iztapalapa,49013,CAPIRO ,NULL ,5:06 PM,21-Jul-2018,Manejar en estado de ebriedad,3513.17
+119,8,SMZGG44P,28,PALMIRA ,Gustavo A. Madero,93622,CERRO DE LAS PALOMAS ,OBRERO MUNDIAL ,10:24 PM,21-Apr-2018,Vuelta prohibida,4760.94
+120,7,YMXYQU0P,12,PIE DE LA CUESTA ,Cuauhtémoc,82149,CALLE PASO SOMOSIERRA ,AV. ERMITA ,11:52 PM,16-Jun-2018,Uso de distractores,624.15
+121,11,M221739X,24,AV. UNIVERSIDAD ,Tláhuac,51925,MIGUEL BARRAGAN ,BATALLA DE CALPULALPAN ,1:23 PM,01-Oct-2018,No respetar la luz roja del semáforo,1812.7
+122,12,S4U1EIA6,91,CERRO DE LAS PALOMAS ,Iztacalco,83352,CARTILLA ,GABRIEL RAMOS MILLAN ,5:10 PM,09-Mar-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4173.52
+123,7,JCQNP9P0,88,ADRIAN BROWER ,Venustiano Carranza,85454,AV. ERMITA ,RAFAELA LOPEZ AGUADO ,9:59 PM,01-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4522.18
+124,6,QP78W194,90,FRANCISCO SARABIA ,Xochimilco,23666,CAOBAN ,TULTEPEC ,5:06 PM,23-Dec-2017,Manejar en estado de ebriedad,2977.26
+125,15,Y9J02PVL,71,CLUB ATLAS ,Benito Juárez,67905,PALOMAR ,CAOBA ,8:29 PM,02-Dec-2018,Uso de distractores,2352.8
+126,7,OUUKAYY6,42,BRUSELAS ,Iztacalco,50307,1RA NORTE ,PRIV. DEL CEDRAL ,10:45 PM,27-Jul-2018,No respetar la luz roja del semáforo,2608.29
+127,8,TKTO813P,21,MAR JONICO ,Cuajimalpa de Morelos,91959,POLYUC ,PRIVADA LIMONES ,9:14 PM,07-Dec-2018,No respetar la luz roja del semáforo,1950.24
+128,6,J3J343OM,28,TENAYUCA ,Xochimilco,37004,COPA DE ORO ,PENNSYLVANIA ,3:48 PM,27-Dec-2017,No respetar la luz roja del semáforo,1442.9
+129,5,W29FF1ME,96,CHICARAS ,Milpa Alta,78394,JAVIER MARTINEZ ,16 DE SEPTIEMBRE ,7:37 PM,08-Oct-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,2850.31
+130,1,QP78W194,71,CARMEN SERDAN ,Gustavo A. Madero,79591,BERNAL DIAZ DEL CASTILLO ,MARGARITA MAZA DE JUAREZ ,10:46 PM,14-Mar-2018,Exceso de velocidad,4897.13
+131,14,GOC5ZI3H,34,PRIMERA CERRADA DE ROBLE ,Cuajimalpa de Morelos,18055,JITOTOL ,PERUA,6:23 PM,11-Aug-2018,Exceso de velocidad,1257.31
+132,13,N1AKJ8P5,62,CRUZ VERDE ,Magdalena Contreras,43947,PRIVADA FARALLON ,JITOTOL ,4:36 PM,21-Jun-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4214.78
+133,14,XZ3F3K96,88,MONTE DE PIEDAD ,Magdalena Contreras,95217,FELIPE ANGELES ,ACERCAMIENTO NACIONAL ,11:00 PM,15-Apr-2018,Exceso de velocidad,4570.69
+134,14,RWPTI6LA,50,TORRES QUINTERO ,Venustiano Carranza,20209,FRANCISCO LEIVA ,ATLETAS ,9:07 PM,22-Oct-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1936.41
+135,7,II1530HN,61,20 DE NOVIEMBRE ,Benito Juárez,81435,COVADONGA ,CDA. DE FRANCISCO CASTAÑEDA ,8:17 PM,31-Dec-2017,No usar cinturón de seguridad,4717.35
+136,5,XZ3F3K96,52,CLUB ATLAS ,Gustavo A. Madero,86293,CERRO DE LOS GAVILANES ,VILLA DE CUITLAHUAC ,11:56 PM,17-Aug-2018,Circular en sentido contrario,2343.66
+137,3,CA6A5KC2,50,CLAVELES ,Álvaro Obregón,36561,PLAZUELA 1 DE SAN PEDRO ,VALLE PASSOS ,6:00 PM,01-Jan-2018,Uso de distractores,1237.67
+138,3,LU11N645,16,CONFITERAS ,Iztapalapa,70744,VALLE PASSOS ,TEMALACA ,3:09 PM,20-Jul-2018,No usar cinturón de seguridad,4936.93
+139,9,Y7GX6X3Y,37,MARIA ELENA SANDOVAL ,Milpa Alta,88429,REFORMA OBRERA ,CERRADA CABRERA ,8:39 PM,17-Jun-2018,Circular en sentido contrario,2218.08
+140,12,EZKHHV14,83,ALTOMONTE ,Iztacalco,97413,VILLA DE LAS FLORES ,PROLON BUEAIRES ,2:51 PM,28-Jun-2018,Circular en sentido contrario,1559.27
+141,11,JCQNP9P0,27,PRIMERA CERRADA DE LAS ROSAS ,Venustiano Carranza,09758,CAOBAN ,JOAQUIN GARCIA LUNA ,12:18 PM,08-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1297.85
+142,4,QCO75924,66,1A. CALLE SUR ,Milpa Alta,88933,CDA. DE FRANCISCO CASTAÑEDA ,MANUEL DOBLADO ,1:27 PM,07-Nov-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,2211.22
+143,8,W3443TE5,78,CECILIO ROBELO ,Tláhuac,60976,TEMALACA ,AV. LA HUERTA ,11:49 PM,05-Mar-2018,Vuelta prohibida,2331.72
+144,5,N44Q741F,39,AVENIDA SAUCES ,Cuauhtémoc,54271,EJIDO MAGDALENA PETLACALCO ,AV MEXICO ,5:11 PM,16-Dec-2017,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4316.86
+145,8,ZNE2S15V,33,PRIV. DEL CEDRAL ,Tlalpan,88043,SN.MARCOS Y LAS AMERICAS ,HACIENDA DE PEÑUELAS ,9:46 PM,17-Jun-2018,Circular en sentido contrario,2431.84
+146,3,J3J343OM,13,CALLE CUAUHTEMOC ,Coyoacán,41095,CALLE TABASCO ,STA. CLARA II ,9:19 AM,27-Sep-2018,Exceso de velocidad,4035.35
+147,8,QP78W194,7,ESTANQUILLO ,Magdalena Contreras,57406,PARAJE ,MANUEL ESPERON ,5:21 PM,25-Oct-2018,Manejar en estado de ebriedad,1210.41
+148,8,JCQNP9P0,24,CIRCUITO PLAZA DE LA PAJA ,Miguel Hidalgo,65667,MARINA NACIONAL ,EL ROSARIO ,8:29 PM,20-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3221.87
+149,13,Q3U08259,83,CECILIO ROBELO ,Gustavo A. Madero,18718,ISABEL LA CATOLICA ,CIPRES ,3:04 PM,23-Jul-2018,Circular en sentido contrario,2494.22
+150,2,ZNE2S15V,95,BALMACEDA ,Iztacalco,44001,NESMEL ,NUEVO LEON ,10:21 PM,03-Dec-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4561.91
+151,10,IU48BR6G,19,BLVD. ADOLFO LOPEZ MATEOS ,Miguel Hidalgo,20527,ROSAL ,AV MEXICO ,10:04 PM,27-Jan-2018,Uso de distractores,1698.86
+152,12,G84O86K6,13,TEJAMANIL ,Gustavo A. Madero,94634,RIO PAPAGALLO ,AVENIDA SAUCES ,6:28 PM,12-Nov-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4659.96
+153,5,BFU3612O,83,JUAN ALDAMA ,Miguel Hidalgo,44182,AV LAS TORRES ,CARTILLA ,9:39 PM,14-Nov-2018,Uso de distractores,4827.6
+154,2,Y3L31C18,56,CERRADA DE LA ROMERIA ,Miguel Hidalgo,88283,ARTEMISAS ,JORGE WASHINGTON ,6:01 PM,13-Aug-2018,No usar cinturón de seguridad,2637.61
+155,3,CANAR7J0,66,CALLE MELCHOR OCAMPO ,Iztapalapa,98631,16 DE SEPTIEMBRE ,PINARES ,3:48 PM,06-Jun-2018,Uso de distractores,4493.15
+156,2,K0F90INC,22,LAS FLORES ,Magdalena Contreras,86249,PEDRO AGUIRRE CERDA ,2 AVENIDA SUR ,10:09 AM,03-Oct-2018,Manejar en estado de ebriedad,1972.74
+157,15,SMZGG44P,55,NEZAHUALCOYOTL ,Xochimilco,47364,LAS FLORES ,FRANCISCO P. MIRANDA ,10:23 AM,24-Oct-2018,Manejar en estado de ebriedad,2130.15
+158,13,I7S6CY55,89,CALZADA BENITO JUAREZ ,Cuajimalpa de Morelos,10959,AVENIDA PAPANTLA ,CRUZ VERDE ,11:27 AM,10-Jan-2018,Manejar en estado de ebriedad,3585.57
+159,10,SMZGG44P,54,VICENTE GUERRERO ,Coyoacán,31203,NUEVO LEON ,MIGUEL BARRAGAN ,11:54 PM,05-Aug-2018,No respetar la luz roja del semáforo,4280.51
+160,1,J76D1KXN,94,SANTA MARIA ,Cuajimalpa de Morelos,92495,CIRCUITO PLAZA DE LA PAJA ,PERU ,10:54 AM,30-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4367.96
+161,11,B0455B46,69,ADRIAN BROWER ,Xochimilco,60522,FRANCISCO DEL PASO Y TRONCOSO ,CDA.DE LA SOLEDAD ,11:26 AM,06-Jul-2018,Circular en sentido contrario,1726.28
+162,6,W29FF1ME,17,BRAVO ,Venustiano Carranza,71342,20 DE NOVIEMBRE ,CALLE LAZARO CARDENAS ,12:07 PM,11-Sep-2018,Uso de distractores,2940.02
+163,4,SSOZVHVC,23,NULL ,Tláhuac,55638,FERNANDO ROMAN LUGO ,OMEGA ,10:56 AM,27-Apr-2018,No respetar la luz roja del semáforo,1121.68
+164,14,I2EPC281,54,DISTRITO EL PLAN ,Cuajimalpa de Morelos,88518,AV. DEL TALLER ,HEROES DE NACOZARI ,3:52 PM,13-Sep-2018,Exceso de velocidad,2127.64
+165,11,CA6A5KC2,53,ADELAIDA ,Tláhuac,52388,CONSTITUCION ,ORIENTE 163 ,7:31 PM,21-Aug-2018,No usar cinturón de seguridad,4961.23
+166,4,Y7GX6X3Y,23,SAGITARIO ,Miguel Hidalgo,12772,ISABEL LA CATOLICA ,PROL. LUCAS ALAMAN ,6:03 PM,02-Aug-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,2203.62
+167,7,W29FF1ME,20,ANDADOR 16 ,Coyoacán,35876,DISTRITO EL PLAN ,ADOLFO PRIETO ,9:04 PM,04-Jul-2018,Exceso de velocidad,2366.83
+168,8,TKTO813P,67,ACERCAMIENTO NACIONAL ,Tláhuac,36450,CALLE 20 DE NOVIEMBRE ,OLIVO ,2:57 PM,21-Apr-2018,Manejar en estado de ebriedad,2249.37
+169,15,I7S6CY55,20,MONTE DE PIEDAD ,Tláhuac,38114,CERRO DE ZEMPOALA ,AV LAS TORRES ,8:42 PM,03-Mar-2018,Manejar en estado de ebriedad,4839.52
+170,3,ZA6LC3PQ,99,CERRO DE LAS PALOMAS ,Cuajimalpa de Morelos,85770,CERRADA DE CANAL NACIONAL ,RAFAELA LOPEZ AGUADO ,1:47 PM,25-Mar-2018,No usar cinturón de seguridad,3967.1
+171,4,T69K9A18,2,NICOLAS BRAVO ,Tláhuac,15113,MANUEL ESPERON ,1A CDA DE OLIVOS ,4:27 PM,09-Nov-2018,Circular en sentido contrario,2207.0
+172,12,W3443TE5,46,ADRIAN BROWER ,Iztacalco,28529,DOCTOR MORA Y VALLE ,ORQUIDEA ,2:55 PM,24-May-2018,No respetar la luz roja del semáforo,2356.93
+173,10,XZ3F3K96,80,HALCON ,Cuajimalpa de Morelos,00596,MONTE ALBAN ,AV VICENTE RIVA PALACIO ,10:51 PM,16-Apr-2018,Exceso de velocidad,1130.47
+174,9,D7HKXA7A,13,CALLE 5 DE MAYO ,Cuajimalpa de Morelos,93758,AV. TLALMEMELOLPAN ,ACERCAMIENTO NACIONAL ,9:27 PM,21-Dec-2017,No respetar la luz roja del semáforo,3799.72
+175,12,U588U7NL,32,AV. UNIVERSIDAD ,Xochimilco,98524,PRIVADA FARALLON ,TEKIT ,8:17 PM,28-May-2018,Manejar en estado de ebriedad,654.91
+176,3,PZZ1449T,84,ALCATRAZ ,Miguel Hidalgo,11241,HUITZILIN ,XOLOTL ,2:09 PM,17-Apr-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,4387.35
+177,1,YK7P7I99,55,BUENA SUERTE ,Iztapalapa,50762,AV LAS TORRES ,ACERCAMIENTO NACIONAL ,11:50 PM,21-Jun-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,3542.07
+178,6,CANAR7J0,94,HDA DE JILOTEPC ,Tláhuac,06056,PERUA,NUEVA YORK ,8:56 PM,27-Oct-2018,No respetar la luz roja del semáforo,752.0
+179,1,I2EPC281,61,OCOTAL ,Azcapotzalco,25279,ALZATE ,PINARES ,10:07 AM,13-May-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2143.85
+180,13,J76D1KXN,17,REAL DE LA ARBOLEDA ,Tláhuac,65637,CTO. LAZARO CARDENAS ,RICARDO FLORES MAGON ,10:49 PM,08-Nov-2018,Estacionarse en lugares para discapacitados,2719.34
+181,8,IU48BR6G,76,MACEDONIO ALCALA ,Milpa Alta,72169,CALLE 4 ,TENORIOS ,10:29 PM,10-Feb-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4663.71
+182,15,U588U7NL,84,PRIV. COLORINES ,Magdalena Contreras,96195,AV LAS TORRES ,ROA BARCENAS ,11:40 PM,18-Aug-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,1175.05
+183,11,T69K9A18,46,CLUB ATLAS ,Cuajimalpa de Morelos,75149,CAOBAN ,AND LAS LEYES DE REFORMA ,11:47 PM,28-May-2018,Exceso de velocidad,607.36
+184,7,QP78W194,43,CEDROS ,Milpa Alta,80488,AV JALISCO ,AUGUSTO RODIN ,9:07 AM,20-Nov-2018,Exceso de velocidad,1491.46
+185,8,GOC5ZI3H,68,PARQUE MOLINO DE FLORES ,Magdalena Contreras,41735,CALLE 5 DE MAYO ,NUEVA TABACHIN ,5:14 PM,28-Jul-2018,Manejar en estado de ebriedad,3210.99
+186,12,M221739X,25,FERRARA ,Iztacalco,86150,BOULEVARD MALINTZI ,BARRIO DE SAN JOSÉ ,11:25 PM,05-Nov-2018,No respetar la luz roja del semáforo,3438.28
+187,10,C9C91B0D,88,PROL DE GUADALUPE Y RAMIREZ ,Iztapalapa,31007,CDA.DE LA SOLEDAD ,CAMPESI,12:17 PM,02-Nov-2018,Uso de distractores,4524.86
+188,14,RA630MC2,66,ESTRELLA ,Miguel Hidalgo,52434,AV VICENTE RIVA PALACIO ,CDA DE MINAS ,8:58 PM,27-Feb-2018,Estacionarse en lugares para discapacitados,4037.84
+189,7,W3443TE5,60,AV. SAN LORENZO TEZONCO ,Xochimilco,64364,DR ARCE ,BALVANERA ,10:23 AM,11-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3935.98
+190,2,U15T3B58,49,CALANDRIA ,Azcapotzalco,26040,SUR 22 ,PRL. MOCTEZUMA ,4:54 PM,23-Mar-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1845.04
+191,4,S4U1EIA6,87,NUEVO LEON ,Cuauhtémoc,19585,NUEVA TEOTIHUACAN ,JESUS GARCIA MORALES ,9:26 PM,03-Oct-2018,No usar cinturón de seguridad,1085.36
+192,15,ZA6LC3PQ,55,AV VICENTE RIVA PALACIO ,Milpa Alta,79010,1RA CERRADA CAMINO ,TENORIOS ,12:53 PM,05-Mar-2018,Circular en sentido contrario,562.47
+193,8,JN24S7HA,71,CERRO CHURINTZIO ,Miguel Hidalgo,35309,CRUCES ,CERRADA CABRERA ,10:37 AM,07-Dec-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,580.9
+194,13,A1Z0OX83,52,CERRO DE ZEMPOALA ,Benito Juárez,83262,ARCO IRIS ,EJIDO MAGDALENA PETLACALCO ,7:17 PM,02-Aug-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,885.18
+195,14,A1Z0OX83,15,FRANCISCO LEIVA ,Coyoacán,43708,2DA CERRADA DE LOMA LINDA ,CALLE 60 ,8:43 PM,07-Apr-2018,No respetar la luz roja del semáforo,2514.15
+196,13,N44Q741F,86,PEDRO AGUIRRE CERDA ,Coyoacán,63584,SANTA MARIA ,SAN MARCOS ,5:33 PM,25-May-2018,Estacionarse en lugares para discapacitados,4902.86
+197,2,B7J9330W,47,PERIFERICO ,Álvaro Obregón,03064,MARGARITA MAZA DE JUAREZ ,TOMAS URBINA ,7:13 PM,21-Jul-2018,Circular en sentido contrario,2778.49
+198,15,IH776VM6,77,CJON.TEZONTLICPAC ,Iztapalapa,04687,DR. JOSE G. PARRES ,ALFONSO XIII ,9:21 AM,15-Aug-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1235.59
+199,5,R5V5BNMF,94,PRIV. DEL CEDRAL ,Iztapalapa,10303,CLAVELES ,IGNACIO ZARAGOZA ,5:52 PM,25-Oct-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3471.11
+200,11,EZKHHV14,5,AV. ZACAMULPA ,Tlalpan,32610,ANDADOR CUAHUTEMOC ,COMUNAL ,6:34 PM,04-Oct-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4414.72
+201,15,WW59DL02,85,LERDO ,Xochimilco,10105,DURANGO ,HEMICICLO A JUAREZ ,9:55 PM,05-Nov-2018,Uso de distractores,531.42
+202,11,CANAR7J0,19,CALANDRIA ,Cuauhtémoc,98880,PLZAS. VILLA DE MADRID ,PROL DE GUADALUPE Y RAMIREZ ,5:06 PM,27-Mar-2018,Circular en sentido contrario,4354.05
+203,13,LN6U69Z6,36,CALLE 60 ,Xochimilco,38175,PRL. MOCTEZUMA ,BAJADA DEL SALTO ,8:20 PM,05-Jan-2018,Uso de distractores,4643.27
+204,11,XO5EER3A,46,ANDADOR 24 MANUELA SAENZ ,Tlalpan,21140,SALTO DEL AGUA ,CALLE FLORES MAGON ,7:55 PM,07-Mar-2018,No respetar la luz roja del semáforo,530.72
+205,6,RL1F1900,14,BLVD. ADOLFO LOPEZ MATEOS ,Álvaro Obregón,04540,BARRANCA ,FERRARA ,11:46 PM,21-May-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,3929.86
+206,10,SSOZVHVC,5,AV. JOSE LORETO FABELA ,Álvaro Obregón,25347,AV. NACIONES UNIDAS ,3A. CERRADA DE SOLIDARIDAD ,9:15 AM,10-May-2018,Uso de distractores,1129.24
+207,4,QP78W194,52,CAMPESI,Tlalpan,83856,PATRICIO SANZ ,CALLE DE MINAS ,11:35 AM,27-Mar-2018,Estacionarse en lugares para discapacitados,4570.9
+208,5,W29FF1ME,94,COPA DE ORO ,Cuajimalpa de Morelos,32770,CD. TABAQUILLO ,LERDO ,5:54 PM,25-Mar-2018,Uso de distractores,1871.94
+209,13,J76D1KXN,78,16 DE SEPTIEMBRE ,Iztacalco,80193,CDA. MANZANO ,AV. NACIONES UNIDAS ,10:47 AM,18-Feb-2018,No respetar la luz roja del semáforo,4980.25
+210,6,U15T3B58,13,MESETA ,Álvaro Obregón,03117,HERIBERTO FRIAS ,1A CERRADA DE CORREGIDORA ,11:48 PM,14-Feb-2018,Vuelta prohibida,3217.24
+211,4,TXEV64YX,20,TECNICOS Y MANUALES ,Álvaro Obregón,39816,CERRO DE LAS PALOMAS ,ANDADOR DE LA ESMERALDA ,1:47 PM,06-Nov-2018,Uso de distractores,2980.27
+212,11,W29FF1ME,21,TENTEL ,Magdalena Contreras,64069,PINO ,STA. CLARA II ,10:56 PM,27-Jun-2018,Circular en sentido contrario,1416.52
+213,2,J3J343OM,37,EL ROSARIO ,Iztacalco,79677,AGUAJE ,AV. TLALMEMELOLPAN ,11:02 PM,23-Aug-2018,No respetar la luz roja del semáforo,530.69
+214,8,B7J9330W,38,CERRO DE ZEMPOALA ,Tláhuac,31168,DOCTOR JOSE MARIA VERTIZ ,TENTEL ,12:18 PM,07-Jun-2018,No usar cinturón de seguridad,4290.84
+215,15,T69K9A18,52,CHIMALPOPOCA ,Magdalena Contreras,40008,CERRADA DE CUAUHTEMOC ,OBRERO MUNDIAL ,7:48 PM,14-Dec-2017,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2017.12
+216,11,TXEV64YX,11,SANTA ANA ,Álvaro Obregón,61275,GARDENIAS ,CALLE UNO ,10:51 PM,13-Dec-2017,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4084.22
+217,15,JN24S7HA,33,BRUSELAS ,Iztacalco,79526,POLYUC ,AV MEXICO ,9:41 AM,13-Mar-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,959.47
+218,8,RWPTI6LA,15,JOSE MARIA MORELOS ,Milpa Alta,79311,AV. UNIVERSIDAD ,2 AVENIDA SUR ,6:54 PM,30-Dec-2017,No usar cinturón de seguridad,1322.58
+219,4,U15T3B58,67,AMORES ,Coyoacán,32002,CERRO DOS CONEJOS ,GARDENIAS ,5:34 PM,05-Feb-2018,Manejar en estado de ebriedad,2114.4
+220,14,C9C91B0D,82,PRIMERA CERRADA DE ROBLE ,Miguel Hidalgo,06790,CHIMALPOPOCA ,5 DE MAYO ,9:11 PM,22-Oct-2018,Circular en sentido contrario,4265.87
+221,4,ZA6LC3PQ,43,CALZADA DE LA VIRGEN ,Cuauhtémoc,90664,CECILIO ROBELO ,LERDO ,9:10 AM,29-May-2018,Vuelta prohibida,1122.01
+222,7,K0F90INC,77,ARTEMISAS ,Venustiano Carranza,78245,ANDADOR PUENTE MONZON ,AV. QUERETARO ,1:17 PM,15-Oct-2018,Estacionarse en lugares para discapacitados,1945.18
+223,13,MP166CKE,37,PALMERAS ,Miguel Hidalgo,21932,PROL AHUEJOTES ,AV. LAS TORRES ,4:52 PM,02-Jun-2018,Vuelta prohibida,3015.51
+224,14,LU11N645,95,CIRCUITO RIO BLANCO ,Venustiano Carranza,61489,GUERRILLERA ,MAR ROJO ,1:52 PM,04-Feb-2018,No respetar la luz roja del semáforo,4331.0
+225,13,GYMA6DT5,19,CALLE 1862 ,Iztapalapa,00706,CERRADA DE CANAL NACIONAL ,JAIME NUNO ,9:31 AM,09-Mar-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3402.28
+226,12,W29FF1ME,50,ARCO IRIS ,Cuauhtémoc,86786,PUERTO MARQUEZ ,ISABEL LA CATOLICA ,11:06 PM,19-Jan-2018,Manejar en estado de ebriedad,3833.18
+227,12,J3J343OM,7,PROLON BUEAIRES ,Azcapotzalco,78962,CALLE 24 ,3A. CERRADA DE SOLIDARIDAD ,11:04 AM,27-Apr-2018,Vuelta prohibida,2726.05
+228,9,CANAR7J0,17,PROL TAMAURILPAS ,Iztapalapa,52318,CONTADORES ,BRUSELAS ,10:55 AM,28-May-2018,Invasión de carriles confinados a ciclovías y carril del Metrobus,2276.56
+229,2,I2EPC281,77,PRIMERA CERRDA DE MARGARITAS ,Magdalena Contreras,09153,XICOTENCATL ,AV. ERMITA ,11:42 AM,05-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2626.2
+230,13,I2EPC281,14,BUENA VISTA ,Cuajimalpa de Morelos,32455,CAMPO FLORIDO ,ROMULO O FARRIL ,9:04 PM,08-Mar-2018,Manejar en estado de ebriedad,2131.2
+231,13,W3443TE5,42,MIERES ,Miguel Hidalgo,20481,TULTEPEC ,BLVD. ADOLFO LOPEZ MATEOS ,11:13 AM,01-Jul-2018,Circular en sentido contrario,4721.73
+232,3,QCO75924,46,AV. JOSE DEL PILAR ,Iztacalco,73569,BAJADA DEL SALTO ,2DA CERRADA DE LOMA LINDA ,3:56 PM,31-Oct-2018,Estacionarse en lugares para discapacitados,4227.19
+233,6,P5QS1G7H,23,2DA CERRADA DE LOMA LINDA ,Tláhuac,23897,CRUZ VERDE ,IGNACIO ZARAGOZA ,10:36 PM,09-Dec-2017,Uso de distractores,1689.53
+234,12,ZA6LC3PQ,30,NORTE 74 ,Venustiano Carranza,72199,ISABEL LA CATOLICA ,MUNICIPIO LIBRE ,11:33 PM,08-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,716.75
+235,13,II1530HN,99,PIEDRAS NEGRAS ,Magdalena Contreras,79647,EUFEMIO ARREDONDO ,AMORES ,11:44 AM,07-Nov-2018,Uso de distractores,2467.7
+236,5,I7S6CY55,29,AV. DE LAS ROSAS ,Benito Juárez,08511,4A. CERRADA DE PEDRO MA. ANAYA ,CALLE PETIRROJO ,3:42 PM,19-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1240.89
+237,4,II1530HN,27,LERDO ,Iztapalapa,14124,NUEVA TABACHIN ,AV. ALTILLO ,3:41 PM,22-Aug-2018,Estacionarse en lugares para discapacitados,4291.87
+238,12,EX7Z0O96,55,JAVIER MARTINEZ ,Álvaro Obregón,65712,PALMIRA ,AVENIDA POLVORA ,1:05 PM,04-Jul-2018,Exceso de velocidad,4450.86
+239,7,SMZGG44P,32,CALLE CUAUHTEMOC ,Iztacalco,61015,CERRO CHURINTZIO ,TLACOTAL ,11:01 PM,31-Aug-2018,Circular en sentido contrario,1666.47
+240,8,SSOZVHVC,39,CRUCES ,Cuajimalpa de Morelos,59418,AGUAJE ,AUGUSTO RODIN ,9:24 AM,16-Sep-2018,Vuelta prohibida,1587.81
+241,6,RTH1CKX8,34,PEDRO RAMIREZ DEL CASTILLO ,Cuajimalpa de Morelos,27787,CORUÑA ,CERRO DE ZEMPOALA ,8:29 PM,26-Aug-2018,Circular en sentido contrario,2299.16
+242,12,KW2DHUI5,46,ADELAIDA ,Cuajimalpa de Morelos,49194,CRISTOBAL COLON ,PEDRO AGUIRRE CERDA ,12:34 PM,11-Nov-2018,Uso de distractores,3512.89
+243,14,Q3U08259,16,AV SANTA MARIA ,Iztacalco,87086,PIEDRAS NEGRAS ,ANANTLI ,2:23 PM,14-Dec-2017,No usar cinturón de seguridad,987.86
+244,11,ZA0EGN20,56,VILLA DE CUITLAHUAC ,Milpa Alta,58648,1RA NORTE ,IXTLIXOCHITL ,5:20 PM,12-Feb-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2547.45
+245,13,PZZ1449T,9,TULTEPEC ,Benito Juárez,55373,REAL DE LA ARBOLEDA ,JUAREZ ,12:41 PM,22-Sep-2018,Estacionarse en lugares para discapacitados,2848.31
+246,6,ZT629SN7,10,AV MEXICO ,Gustavo A. Madero,67876,CALANDRIA ,FRANCISCO SARABIA ,4:40 PM,07-Aug-2018,Estacionarse en lugares para discapacitados,1128.65
+247,7,YMXYQU0P,11,CENZONTLE ,Gustavo A. Madero,22301,FRES,LAGUNA DE TERMI,9:06 AM,02-Jan-2018,No respetar la luz roja del semáforo,2570.62
+248,7,H5WI3AD1,35,SAN EMETERIO ,Xochimilco,76425,CALZADA DE LA VIRGEN ,OCOTAL ,6:21 PM,03-Apr-2018,Circular en sentido contrario,1547.26
+249,1,DZYW1HW9,52,PRIV. DEL CEDRAL ,Tláhuac,78047,CALZADA BENITO JUAREZ ,CHICARAS ,12:45 PM,19-Oct-2018,Estacionarse en lugares para discapacitados,2363.8
+250,6,KW2DHUI5,97,MAR ROJO ,Gustavo A. Madero,02270,CALLEJON ITURBE ,ARCO IRIS ,3:43 PM,23-Feb-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3501.69
+251,7,RA630MC2,77,AVENIDA CENTENARIO ,Xochimilco,77315,BELLACO ,MIGUEL BARRAGAN ,8:26 PM,08-Mar-2018,Uso de distractores,2308.68
+252,15,C9C91B0D,84,BUENA VISTA ,Coyoacán,88017,AV PACIFICO ,GUERRILLERA ,11:03 PM,19-Jul-2018,Manejar en estado de ebriedad,4464.2
+253,15,J3J343OM,17,HOPELCHEN ,Magdalena Contreras,37859,MUNICIPIO LIBRE ,BERNAL DIAZ DEL CASTILLO ,5:23 PM,03-Sep-2018,Manejar en estado de ebriedad,2778.41
+254,5,II1530HN,14,CALZADA DE LA VIRGEN ,Tlalpan,10469,CAOBAN ,ALFONSO XIII ,3:27 PM,15-Dec-2017,Invasión de carriles confinados a ciclovías y carril del Metrobus,3144.22
+255,5,TXEV64YX,48,ALCATRAZ ,Venustiano Carranza,85349,BOSQUES DE BOHEMIA ,FRANCISCO P. MIRANDA ,4:44 PM,29-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2035.82
+256,11,A1Z0OX83,20,CDA. MANZANO ,Cuajimalpa de Morelos,02236,ISABEL LA CATOLICA ,AVENIDA SAN JERONIMO ,4:49 PM,18-Feb-2018,Exceso de velocidad,4359.71
+257,4,ZA0EGN20,67,CERRADA CABRERA ,Iztacalco,59046,HEROES DE NACOZARI ,TEKIT ,12:53 PM,11-Jun-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2253.93
+258,15,R900Z5T0,61,TEMALACA ,Benito Juárez,06575,1A CDA DE OLIVOS ,CERRO CHURINTZIO ,4:49 PM,30-May-2018,Uso de distractores,3184.69
+259,2,TXEV64YX,5,ARIZONA ,Milpa Alta,69597,CDA. MANZANO ,CAPIRO ,3:54 PM,28-Dec-2017,Estacionarse en lugares para discapacitados,3180.06
+260,1,T69K9A18,22,TEMALACA ,Tlalpan,51576,JUAN SANCHEZ AZCONA ,SUR 113 A ,11:19 AM,20-Oct-2018,Estacionarse en lugares para discapacitados,4339.83
+261,15,RA630MC2,24,TENTEL ,Coyoacán,05413,CHICOASEN ,RAFAEL CRAVIOTO ,12:25 PM,30-Mar-2018,Uso de distractores,2447.02
+262,13,YK7P7I99,99,AUGUSTO RODIN ,Venustiano Carranza,02733,AV. DEL TALLER ,CALLE PASO SOMOSIERRA ,12:11 PM,23-Jan-2018,Vuelta prohibida,2498.49
+263,7,RL1F1900,27,ANDADOR DEL LLANO ,Miguel Hidalgo,59193,DR ARCE ,PARAJE ,11:11 PM,21-Aug-2018,Circular en sentido contrario,4254.32
+264,13,D7HKXA7A,15,FRACCIONAMIENTO LAS ARBOLEDAS ,Miguel Hidalgo,14927,CANAL DEL VADO ,PERUA,10:48 AM,31-May-2018,Estacionarse en lugares para discapacitados,821.33
+265,14,XO5EER3A,18,ARTEMISAS ,Tláhuac,04245,TABASCO ,PIEDRA CALIZA ,9:43 AM,03-Aug-2018,Estacionarse en lugares para discapacitados,660.18
+266,12,A1Z0OX83,65,ANDADOR DE LA ESMERALDA ,Tláhuac,61365,ALDAMA ,AHUACATL ,10:34 AM,26-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3241.01
+267,2,KDMK79D5,37,GRECIA ,Iztapalapa,09101,NORTE 172 ,TEMALACA ,11:56 AM,07-Jul-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1136.83
+268,4,ZNE2S15V,93,PRIVADA EXHACIENDA DE LA ESCALERA ,Azcapotzalco,51466,JUAREZ ,LAGO MANAGUA ,10:58 AM,06-Oct-2018,Estacionarse en lugares para discapacitados,2095.89
+269,10,RTH1CKX8,36,ANANTLI ,Cuajimalpa de Morelos,69100,RETORNO ELIAS F. HURTADO ,NEZAHUALCOYOTL ,10:02 AM,19-Apr-2018,No respetar la luz roja del semáforo,3521.64
+270,14,JN24S7HA,25,BOCA DEL RIO ,Miguel Hidalgo,52711,TLACOTAL ,AV MEXICO ,10:30 PM,01-Jul-2018,No usar cinturón de seguridad,750.47
+271,11,QCO75924,16,MANUEL GUTIERREZ NAJERA ,Coyoacán,32963,CERRO DE LAS PALOMAS ,CALLE 60 ,3:44 PM,18-Aug-2018,Circular en sentido contrario,1001.2
+272,5,EX7Z0O96,9,CERRO CHURINTZIO ,Cuajimalpa de Morelos,16127,NUEVA YORK ,VICTORIANO SALADO ALVAREZ ,5:25 PM,11-May-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4710.21
+273,5,RA630MC2,28,CALVARIO ,Coyoacán,73181,ACERCAMIENTO NACIONAL ,AVENIDA PAPANTLA ,10:27 PM,06-Jun-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,1410.53
+274,1,U588U7NL,60,CERRO DE LA ESTRELLA ,Magdalena Contreras,17677,1RA CERRADA CAMINO ,HOPELCHEN ,10:35 AM,24-Sep-2018,Manejar en estado de ebriedad,4182.32
+275,14,QCO75924,3,ANTONIO VALERIANO ,Xochimilco,38923,ANTONIO VALERIANO ,AV SANTA MARIA ,4:31 PM,28-Jan-2018,Manejar en estado de ebriedad,736.57
+276,4,HBFWP7QQ,35,CAOBAN ,Cuajimalpa de Morelos,22247,CRISTOBAL COLON ,4A. CERRADA DE PEDRO MA. ANAYA ,6:56 PM,19-Jan-2018,Exceso de velocidad,2722.78
+277,8,D7HKXA7A,99,ALCANFORES ,Tláhuac,88946,CERRADA CABRERA ,PALMERAS ,8:49 PM,24-Mar-2018,Vuelta prohibida,1262.23
+278,9,JCQNP9P0,50,ERICKO EL ROJO ,Iztacalco,79321,TABASCO ,CALLE 1 ,10:05 PM,25-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,843.45
+279,5,QP78W194,94,LA VENTA CLAUSTRO TULIPANES ,Milpa Alta,21506,CALLE FRANCISCO I. MADERO ,PENNSYLVANIA ,9:36 PM,13-May-2018,Exceso de velocidad,2458.36
+280,11,ZT629SN7,57,CITILCUN ,Coyoacán,76386,HIGUERA NUMERO ,PASEO DE LOS CHOPOS ,5:15 PM,16-Nov-2018,Circular en sentido contrario,1100.07
+281,7,IU48BR6G,90,CIRCUITO PLAZA DE LA PAJA ,Tláhuac,02747,CHIAPANECAS ,CALLE 5 DE FEBRERO ,1:45 PM,13-Jan-2018,Circular en sentido contrario,2832.94
+282,10,KDMK79D5,35,VICTORIANO SALADO ALVAREZ ,Xochimilco,13374,REFORMA OBRERA ,FRESA ,10:44 AM,04-Jun-2018,No usar cinturón de seguridad,757.1
+283,6,QCO75924,14,TIBURCIO MONTIEL ,Coyoacán,67276,MARINO MOSCO ,HOMBRES ILUSTRES ,1:43 PM,03-Oct-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4817.84
+284,11,EZKHHV14,35,GRECIA ,Azcapotzalco,32337,PABLO ALVARADO ,CEDROS ,3:08 PM,21-Nov-2018,Circular en sentido contrario,3226.63
+285,6,RA630MC2,1,HIDALGO ,Miguel Hidalgo,33595,NULL ,TEPETONGO ,7:11 PM,08-Jul-2018,Circular en sentido contrario,4459.05
+286,6,GYMA6DT5,59,AMEZQUITE ,Miguel Hidalgo,93679,VIVEROS DE ASIS ,PASEO DE LOS CHOPOS ,2:49 PM,29-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,676.85
+287,6,ZNE2S15V,83,CALLE PASO SOMOSIERRA ,Miguel Hidalgo,18409,PORTO ALEGRE ,VALLE DE TULANCINGO ,9:15 PM,22-Jun-2018,Estacionarse en lugares para discapacitados,3773.96
+288,1,DZYW1HW9,18,FRANCISCO LEIVA ,Coyoacán,99380,CERRO DE LAS PALOMAS ,EXCONVENTO DE CHURUBUSCO ,6:44 PM,27-Aug-2018,Manejar en estado de ebriedad,1520.61
+289,2,YMXYQU0P,33,AV. SAN PABLO XALPA ,Benito Juárez,50116,CENZONTLE ,SN.MARCOS Y LAS AMERICAS ,10:24 AM,19-Feb-2018,Estacionarse en lugares para discapacitados,1083.11
+290,6,W29FF1ME,97,AMAPOLA ,Iztacalco,01623,BRAVO ,PALMERAS ,12:45 PM,07-Jun-2018,Uso de distractores,2679.85
+291,13,EX7Z0O96,20,ORQUIDEA ,Tlalpan,29922,PROL AHUEJOTES ,ZEMPOALTEPETL ,11:35 PM,01-Apr-2018,Circular en sentido contrario,2127.44
+292,12,W29FF1ME,81,AV. DEL TALLER ,Cuauhtémoc,64385,CALLE PASO SOMOSIERRA ,ANDADOR 2 DE COMPOSTELA ,1:50 PM,08-Dec-2018,Vuelta prohibida,1295.47
+293,14,Y3L31C18,96,CALLE 5 DE FEBRERO ,Gustavo A. Madero,20985,LICENCIADO VERDAD ,IXTLE ,12:07 PM,17-Nov-2018,Vuelta prohibida,1509.87
+294,10,J3J343OM,57,SANTA ANA ,Gustavo A. Madero,65341,EXCONVENTO DE CHURUBUSCO ,LEONARDO DA VINCI ,8:13 PM,01-Jun-2018,Estacionarse en lugares para discapacitados,2986.82
+295,4,KW2DHUI5,22,NICOLAS BRAVO ,Cuauhtémoc,63829,SAN MARCOS ,LOMBARDOS ,12:48 PM,21-May-2018,No usar cinturón de seguridad,4601.84
+296,2,M221739X,17,JORGE WASHINGTON ,Coyoacán,27893,CANAL SECO ,HORACIO NELSON ,6:21 PM,07-Apr-2018,Circular en sentido contrario,1617.6
+297,13,N1AKJ8P5,74,EL ROSARIO ,Álvaro Obregón,40565,PLAZUELA 1 DE SAN PEDRO ,SEBASTIAN L TEJADA ,10:11 AM,16-May-2018,Uso de distractores,1363.71
+298,12,KW2DHUI5,56,CHICOASEN ,Venustiano Carranza,85735,FERNANDO ROMAN LUGO ,RODOLFO FIERRO ,11:49 AM,06-Dec-2018,Circular en sentido contrario,4694.67
+299,10,U987SI42,79,CDA. DE FRESNO ,Azcapotzalco,63675,VISTA HERMOSA ,SAN FRANCISCO ,3:13 PM,14-Sep-2018,Exceso de velocidad,4052.36
+300,7,W29FF1ME,42,CALLE PETIRROJO ,Iztapalapa,99756,4A. CERRADA DE PEDRO MA. ANAYA ,TONATIUH ,11:17 AM,19-Feb-2018,Estacionarse en lugares para discapacitados,2751.07
+301,15,BFU3612O,67,CALLE PASO SOMOSIERRA ,Coyoacán,24984,CEDROS ,PLAZUELA 1 DE SAN PEDRO ,5:14 PM,23-Mar-2018,Vuelta prohibida,3482.79
+302,2,HBFWP7QQ,51,1RA CERRADA DE SANTA ANNA ,Miguel Hidalgo,42955,PEDRO RAMIREZ DEL CASTILLO ,CONFITERAS ,8:45 PM,15-Nov-2018,Exceso de velocidad,3835.82
+303,14,Y7GX6X3Y,81,TEPETONGO ,Miguel Hidalgo,78419,AGRICULTURA ,PABLO ALVARADO ,7:44 PM,16-Dec-2017,No usar cinturón de seguridad,4433.06
+304,13,C4M7RYT5,100,EXCONVENTO DE CHURUBUSCO ,Álvaro Obregón,26753,PROL AHUEJOTES ,CALLE LAZARO CARDENAS ,11:16 PM,15-Dec-2017,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,2403.3
+305,11,ZA6LC3PQ,13,ONCE MARTIRES ,Miguel Hidalgo,17900,TEJAMANIL ,PABLO ALVARADO ,5:02 PM,19-Jan-2018,Estacionarse en lugares para discapacitados,1839.69
+306,4,TKTO813P,52,AHUACATL ,Tlalpan,73031,OMEGA ,BAJADA DEL SALTO ,10:22 AM,10-Feb-2018,Estacionarse en lugares para discapacitados,4729.54
+307,8,B0455B46,96,AILE ,Benito Juárez,16548,ANDADOR ANTONIO RULLAN FERRER ,1A CERRADA DE CORREGIDORA ,5:29 PM,30-Jun-2018,Manejar en estado de ebriedad,2323.76
+308,1,HBFWP7QQ,10,CERRO DE LAS PALOMAS ,Iztapalapa,38647,BOSQUES DE FELIPE ,HEMICICLO A JUAREZ ,10:42 PM,20-Apr-2018,Uso de distractores,2183.88
+309,4,ZNE2S15V,61,CAMPESI,Tlalpan,11189,VELAZQUEZ DE LEON ,ANDADOR ANTONIO RULLAN FERRER ,5:35 PM,22-Sep-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4050.6
+310,9,M221739X,72,JESUS GARCIA MORALES ,Álvaro Obregón,85884,TENAYUCA ,ALTOMONTE ,11:41 PM,08-May-2018,Vuelta prohibida,3896.75
+311,1,R900Z5T0,40,LINO MERINO ,Miguel Hidalgo,01998,OLIVO ,CALLE DE MINAS ,11:30 AM,19-Sep-2018,Uso de distractores,2839.48
+312,10,UX8N109O,11,3A. CERRADA DE SOLIDARIDAD ,Cuajimalpa de Morelos,67441,MORELOS ,PUERTO RICO ,11:18 AM,01-Feb-2018,No usar cinturón de seguridad,812.05
+313,12,I2EPC281,94,SAGITARIO ,Venustiano Carranza,65761,JOSE SAAVEDRA DEL RAZO ,PENNSYLVANIA ,6:43 PM,16-Nov-2018,Uso de distractores,2438.17
+314,2,T69K9A18,94,LAGO BOLSENA ,Cuajimalpa de Morelos,53599,PERIFERICO ,CALZADA BENITO JUAREZ ,2:11 PM,21-Aug-2018,Manejar en estado de ebriedad,4715.44
+315,9,RTH1CKX8,72,LICENCIADO VERDAD ,Iztacalco,99460,LEONARDO DA VINCI ,CDA. DE FRANCISCO CASTAÑEDA ,9:28 AM,17-Jun-2018,Vuelta prohibida,516.32
+316,13,XO5EER3A,79,EUFEMIO ARREDONDO ,Tlalpan,11707,PERU ,ALZATE ,7:00 PM,21-Oct-2018,No usar cinturón de seguridad,3068.92
+317,14,Y3L31C18,79,LEONARDO DA VINCI ,Benito Juárez,70596,CEDROS ,PRIV. JESUS LECUONA ,9:19 AM,16-Jan-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,4710.24
+318,11,RWPTI6LA,91,CHIAPANECAS ,Coyoacán,92542,CERRO DE ZEMPOALA ,NORTE 74 ,10:46 AM,17-Oct-2018,No respetar la luz roja del semáforo,1328.68
+319,6,LN6U69Z6,87,TENORIOS ,Miguel Hidalgo,58203,1RA CERRADA DE SANTA ANNA ,GUERRERO ,5:51 PM,10-Nov-2018,Estacionarse en lugares para discapacitados,2398.79
+320,2,N1AKJ8P5,62,ALFONSO XIII ,Gustavo A. Madero,63267,TORTUGA ,INDEPENDENCIA ,12:05 PM,24-Jul-2018,Exceso de velocidad,1471.81
+321,4,QP78W194,27,FRANCISCO SARABIA ,Cuauhtémoc,15114,ALCANFORES ,VISTA HERMOSA ,7:49 PM,07-Jul-2018,Circular en sentido contrario,3048.04
+322,2,II1530HN,31,MIGUEL BARRAGAN ,Venustiano Carranza,51852,LOMA DE GUADALUPE ,PRIV. DEL CEDRAL ,2:22 PM,11-Mar-2018,Invasión de pasos peatonales y áreas de espera para motos y bicicletas,3333.08
+323,1,ZA0EGN20,97,CERRO CHURINTZIO ,Coyoacán,85248,MONTE DE PIEDAD ,PERU ,11:55 AM,05-Nov-2018,No usar cinturón de seguridad,2430.09
+324,9,B7J9330W,3,MIGUEL ALEMAN ,Benito Juárez,63803,AV. COPILCO ,LA GARITA ,3:01 PM,17-Jan-2018,Circular en sentido contrario,2226.41
+325,10,N44Q741F,62,16 DE SEPTIEMBRE ,Venustiano Carranza,89169,CALLE ZARAGOZA ,PERUA,6:07 PM,31-Mar-2018,Exceso de velocidad,874.38

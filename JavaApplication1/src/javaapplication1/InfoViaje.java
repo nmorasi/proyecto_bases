@@ -10,6 +10,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  *
@@ -20,20 +22,24 @@ public class InfoViaje extends javax.swing.JFrame {
     /**
      * Creates new form InfoViaje
      */
-    public InfoViaje(ResultSet rs) throws SQLException{
+    public InfoViaje(LinkedList<String[]> clientes) throws SQLException{
         initComponents();
         //codigo que debe desplegar la ventana 
         //desplegar los descuentos
-        String cad = "";
-        while(rs.next()){
-            cad += rs.getString(1) + ",";
-            cad += rs.getString(2) + ",";
-             cad += rs.getString(3) + ",";
-              cad += rs.getString(4) + ",";
-               cad += rs.getString(5) + ",";
-                cad += rs.getString(6) + ",";
-                 cad += rs.getString(7) + "\n"; 
-            jTextArea2.append(cad);
+        //String cad = "";
+        Iterator<String[]> it = clientes.iterator();
+        int contador = 0; 
+        String[] temp;
+        String cad ;
+        jTextArea2.append("La informacion del viaje es la siguiente\n");
+        while(it.hasNext()){
+            temp = it.next();
+            cad = ""+contador+".- ";
+            cad += "nombre: "+temp[0] + " " + temp[1] + " "+ temp[2];
+            cad += "\n costo: " + temp[3] + " ";
+            cad += "\n descuento: " + temp[4] ;
+            jTextArea2.append(cad + "\n");
+            contador++;
         }
     }
 

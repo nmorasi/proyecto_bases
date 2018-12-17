@@ -8,6 +8,7 @@ package javaapplication1;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -227,20 +228,20 @@ public class GUI extends javax.swing.JFrame {
             boolean comp = false;
             String tipo = "externo";
             if(dentro_cu.isSelected()){
-                System.out.println("lo estas seleccionando el de cu");
+               
                 tipo = "interno";
             }
             if (jCheckBox1.isSelected()){
-                System.out.println("estas seleccionando el de compania");
+                
                 comp = true;
             }
-            int id_viaje = Integer.parseInt(jTextField1.getText());
-            ja.ingresar_info(id_viaje,tipo,comp);
-            ResultSet rs = ja.tuplas_viaje(id_viaje);
+            int id_cliente = Integer.parseInt(jTextField1.getText());
+            int id_viaje = ja.ingresar_info(id_cliente,tipo,comp);
+            LinkedList<String[]> ll = ja.tuplas_viaje(id_viaje);
             java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    new InfoViaje(rs).setVisible(true);
+                    new InfoViaje(ll).setVisible(true);
                 } catch (SQLException ex) {
                     Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
                 }

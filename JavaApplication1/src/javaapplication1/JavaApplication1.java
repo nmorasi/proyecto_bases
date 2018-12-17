@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
+import java.util.LinkedList;
 import java.util.Random;
 /**
  *
@@ -99,7 +100,7 @@ public class JavaApplication1 {
     }
     //se supone que esto deberia tomar toda la informacion de la interfaz
     // e ingresarla en la base de datos
-    void ingresar_info(int id_cliente,String tipo,boolean compartir) throws SQLException{
+    int ingresar_info(int id_cliente,String tipo,boolean compartir) throws SQLException{
         //crear un viaje
         int id_viaje = this.crearViaje();
         System.out.println("el id del viaje creado es " + id_viaje);
@@ -120,13 +121,26 @@ public class JavaApplication1 {
                 crearCliente(id_viaje);
             }
         }
+        return id_viaje;
     }
-    ResultSet tuplas_viaje(int id_viaje) throws SQLException{ 
+    LinkedList<String[]> tuplas_viaje(int id_viaje) throws SQLException{ 
         Connection conn = null;
         conn = DriverManager.getConnection(url,user,password);
         Statement st = conn.createStatement();
         //agregargarme al viaje con una transaccion 
-         return  st.executeQuery(String.format("SELECT * from transaccion WHERE id_viaje = %s ;",id_viaje));
-        
+        System.out.println("el id es " + id_viaje);
+        ResultSet rs = st.executeQuery(String.format("SELECT * from cliente join transaccion using (id_cliente) WHERE id_viaje = %d ;",id_viaje));
+        String[] temp;
+        LinkedList<String[]> ret = new LinkedList<String[]>();
+        while(rs.next()){
+            temp = new String[5];
+            temp[0] = rs.getString("nombre");
+            temp[1] = rs.getString("ap_paterno");
+            temp[2] = rs.getString("ap_materno");
+            temp[3] = rs.getString("monto_total");
+            temp[4] = rs.getString("descuento");
+            ret.add(temp);
+        }
+        return ret;
     }
 }
